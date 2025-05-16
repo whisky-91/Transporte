@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buscador de Rutas</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Busca tu Ruta</h2>
+
+      <label for="origen">Ciudad de Origen</label>
+      <input type="text" id="origen" placeholder="Ej. Barcelona" />
+
+      <label for="destino">Ciudad de Destino</label>
+      <input type="text" id="destino" placeholder="Ej. Valencia" />
+
+      <button onclick="buscarRuta()">Buscar Ruta</button>
+
+      <div class="results" id="resultados"></div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+PREGUNTAS A LA API:
+
+1. Definición del trayecto entre el punto de origen y el de destino: 
+    
+    - Terrestre
+    - Marítimo
+    - Mixto
+
+2. Si es Marítimo/Mixto: Puertos más cercanos a la ciudad de origen y a la de destino.
+
+3. Distnacia total entre origen y destino.
+
+REQUISITOS DE FORMATO PARA LAS RESPUESTAS:
+
+    Pregunta 1: Responde con una palabra (Marítimo, Terrestre, Mixto)
+    Pregunta 2: Responde con el nombre de la ciudad de origen y el de su puerto más cercano y el 
+                nombre de la ciudad de destino y su puerto más cercano.
+    Pregunta 3: Número de km (¿y la unidad de medida?)

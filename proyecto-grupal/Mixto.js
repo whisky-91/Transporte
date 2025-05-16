@@ -14,4 +14,4 @@ export class Mixto {
         return precio;
     }
 }
-//# sourceMappingURL=mixto.js.map
+//# sourceMappingURL=Mixto.js.map

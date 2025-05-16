@@ -1,0 +1,122 @@
+Prompt rutas transporte
+
+Por favor, indícame:
+
+El formato exacto en el que necesitas la información (ejemplo: lista, tabla, JSON, etc.).
+
+Los datos específicos que debo proporcionar sobre cada ciudad (ejemplo: población, comunidad autónoma, monumentos destacados, clima, etc.).
+
+Cuando me lo indiques, te daré la información en el estilo que requieras. ¡Adelante!
+
+Cosas que me tienes que responder cuando te pase el nombre de dos ciudades:
+
+1. Definición del trayecto entre el punto de origen y el de destino:
+
+   - Terrestre
+   - Marítimo
+   - Mixto
+
+2. Si es Marítimo/Mixto: Puertos más cercanos a la ciudad de origen y a la de destino.
+
+3. Distnacia total entre origen y destino.
+
+REQUISITOS DE FORMATO PARA LAS RESPUESTAS:
+
+    Pregunta 1: Responde con una palabra (Marítimo, Terrestre, Mixto).
+
+    Pregunta 2: Responde con el nombre de la ciudad de origen y el de su puerto más cercano y el
+                nombre de la ciudad de destino y su puerto más cercano.
+
+    Pregunta 3: Número de km.
+
+has comprendido esto?
+¡Entendido perfectamente! 😊
+
+Aplicaré el formato que me indicas para cada par de ciudades que me pases. Aquí tienes un ejemplo de cómo sería mi respuesta (con datos ficticios para ilustrar):
+
+Ciudad de origen: Valencia
+Ciudad de destino: Palma de Mallorca
+
+Tipo de trayecto: Mixto
+
+Puertos cercanos:
+
+Valencia: Puerto de Valencia
+
+Palma de Mallorca: Puerto de Palma
+
+Distancia total: 222 km
+
+Cuando me des los nombres de las dos ciudades, responderé exactamente así, sin añadir nada más. ¡Dímelas cuando quieras! ⛴🚗
+
+vale vamos a probar un rato esta dinamica, te paso el nombre de otras dos ciudades ok?
+¡Perfecto! 😊 Estoy lista para seguir tu dinámica al 100%.
+
+Solo necesito que me indiques:
+
+Ciudad de origen: [nombre]
+
+Ciudad de destino: [nombre]
+
+Y te responderé exactamente en el formato que definiste, sin desviaciones. ¡Adelante con las ciudades! ⬇️
+
+vigo, logroño
+Ciudad de origen: Vigo
+Ciudad de destino: Logroño
+
+Tipo de trayecto: Terrestre
+
+Puertos cercanos: No aplica (al ser trayecto terrestre)
+
+Distancia total: 558 km
+
+_Nota: La ruta más directa es por carretera (AP-9, A-6, AP-71, etc.). No hay conexión marítima entre ambas al ser Logroño una ciudad interior._ 😊
+
+cadiz y valencia
+Ciudad de origen: Cádiz
+Ciudad de destino: Valencia
+
+Tipo de trayecto: Mixto (Terrestre + Marítimo opcional)
+
+Puertos cercanos:
+
+Cádiz: Puerto de Cádiz
+
+Valencia: Puerto de Valencia
+
+Distancia total:
+
+Terrestre (solo carretera): 725 km
+
+Opción marítima (Cádiz-Valencia por barco): ~530 km (ruta directa aproximada en línea recta por mar, aunque no es una ruta comercial común).
+
+_Nota: La opción más práctica es terrestre (autovía A-4 y A-3). Existe la posibilidad teórica de combinar tramos marítimos, pero no hay conexiones directas regulares de pasajeros entre ambos puertos._ 🚢🚗
+
+esta ultima respuesta si que me gusta! a partir de ahora damelas todas asi de acuerdo?
+¡Perfecto! 😊 A partir de ahora, todas mis respuestas seguirán este formato mejorado, incluyendo:
+
+Tipo de trayecto (con opciones claras).
+
+Puertos cercanos (si aplica, aunque la ruta sea terrestre, por si prefieres opción marítima/mixta).
+
+Distancias (con detalles de rutas alternativas, si existen).
+
+Ejemplo futuro (para que veas que lo tengo claro):
+Ciudad de origen: Barcelona
+Ciudad de destino: Ibiza
+
+Tipo de trayecto: Mixto (Terrestre + Marítimo) _o_ Marítimo (directo).
+
+Puertos cercanos:
+
+Barcelona: Puerto de Barcelona.
+
+Ibiza: Puerto de Ibiza.
+
+Distancias:
+
+Marítima directa (ferry): 132 km (aprox. 5-7h en ferry).
+
+Terrestre + Marítimo (conducir a Valencia y ferry): 530 km + 140 km (total 670 km).
+
+¡Dime las siguientes ciudades cuando quieras!

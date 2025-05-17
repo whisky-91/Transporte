@@ -1,0 +1,94 @@
+{
+  "provincias": [
+    {
+      "nombre": "Álava",
+      "capital": "Vitoria-Gasteiz",
+      "es_costera": false,
+      "puerto_mas_cercano": {
+        "nombre": "Puerto de Bilbao",
+        "distancia_km": 66,
+        "es_obligatorio": false
+      },
+      "ciudades_principales": [
+        {
+          "nombre": "Llodio",
+          "distancia_km_capital": 35,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Bilbao",
+            "distancia_km": 25,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Amurrio",
+          "distancia_km_capital": 40,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Bilbao",
+            "distancia_km": 30,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Salvatierra",
+          "distancia_km_capital": 20,
+          "puerto_mas_cercano": null
+        }
+      ]
+    },
+    {
+      "nombre": "Albacete",
+      "capital": "Albacete",
+      "es_costera": false,
+      "puerto_mas_cercano": {
+        "nombre": "Puerto de Valencia",
+        "distancia_km": 191,
+        "es_obligatorio": false
+      },
+      "ciudades_principales": [
+        {
+          "nombre": "La Roda",
+          "distancia_km_capital": 30,
+          "puerto_mas_cercano": null
+        },
+        {
+          "nombre": "Almansa",
+          "distancia_km_capital": 56,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Valencia",
+            "distancia_km": 120,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Hellín",
+          "distancia_km_capital": 65,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Valencia",
+            "distancia_km": 210,
+            "es_obligatorio": false
+          }
+        }
+      ]
+    }
+  ],
+  "puertos_principales": [
+    {
+      "nombre": "Puerto de Valencia",
+      "provincia": "Valencia",
+      "ciudad_ubicacion": "Valencia"
+    },
+    {
+      "nombre": "Puerto de Bilbao",
+      "provincia": "Bizkaia",
+      "ciudad_ubicacion": "Bilbao"
+    }
+  ],
+  "distancias_maritimas": [
+    {
+      "puerto_origen": "Puerto de Valencia",
+      "puerto_destino": "Puerto de Palma",
+      "distancia_km": 349,
+      "tiempo_estimado_horas": 12
+    }
+  ]
+}

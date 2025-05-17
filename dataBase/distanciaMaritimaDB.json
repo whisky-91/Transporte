@@ -1,0 +1,144 @@
+{
+  "distancias_maritimas": [
+    {
+      "puerto_origen": "Puerto de Palma",
+      "puerto_destino": "Puerto de Ibiza",
+      "distancia_km": 150
+    },
+    {
+      "puerto_origen": "Puerto de Palma",
+      "puerto_destino": "Puerto de Mahón",
+      "distancia_km": 135
+    },
+    {
+      "puerto_origen": "Puerto de Ibiza",
+      "puerto_destino": "Puerto de Mahón",
+      "distancia_km": 120
+    },
+    {
+      "puerto_origen": "Puerto de Palma",
+      "puerto_destino": "Puerto de Valencia",
+      "distancia_km": 349
+    },
+    {
+      "puerto_origen": "Puerto de Ibiza",
+      "puerto_destino": "Puerto de Alicante",
+      "distancia_km": 120
+    },
+    {
+      "puerto_origen": "Puerto de Mahón",
+      "puerto_destino": "Puerto de Barcelona",
+      "distancia_km": 200
+    },
+    {
+      "puerto_origen": "Puerto de Las Palmas",
+      "puerto_destino": "Puerto de Santa Cruz de Tenerife",
+      "distancia_km": 110
+    },
+    {
+      "puerto_origen": "Puerto de Las Palmas",
+      "puerto_destino": "Puerto de Cádiz",
+      "distancia_km": 1150
+    },
+    {
+      "puerto_origen": "Puerto de Santa Cruz de Tenerife",
+      "puerto_destino": "Puerto de Cádiz",
+      "distancia_km": 1300
+    },
+    {
+      "puerto_origen": "Puerto de Bilbao",
+      "puerto_destino": "Puerto de Santander",
+      "distancia_km": 70
+    },
+    {
+      "puerto_origen": "Puerto de Bilbao",
+      "puerto_destino": "Puerto de Pasaia",
+      "distancia_km": 30
+    },
+    {
+      "puerto_origen": "Puerto de A Coruña",
+      "puerto_destino": "Puerto de Vigo",
+      "distancia_km": 130
+    },
+    {
+      "puerto_origen": "Puerto de A Coruña",
+      "puerto_destino": "Puerto de Ferrol",
+      "distancia_km": 30
+    },
+    {
+      "puerto_origen": "Puerto de Gijón",
+      "puerto_destino": "Puerto de Avilés",
+      "distancia_km": 40
+    },
+    {
+      "puerto_origen": "Puerto de Santander",
+      "puerto_destino": "Puerto de Gijón",
+      "distancia_km": 120
+    },
+    {
+      "puerto_origen": "Puerto de Barcelona",
+      "puerto_destino": "Puerto de Tarragona",
+      "distancia_km": 90
+    },
+    {
+      "puerto_origen": "Puerto de Tarragona",
+      "puerto_destino": "Puerto de Castellón",
+      "distancia_km": 250
+    },
+    {
+      "puerto_origen": "Puerto de Valencia",
+      "puerto_destino": "Puerto de Alicante",
+      "distancia_km": 190
+    },
+    {
+      "puerto_origen": "Puerto de Alicante",
+      "puerto_destino": "Puerto de Cartagena",
+      "distancia_km": 120
+    },
+    {
+      "puerto_origen": "Puerto de Cartagena",
+      "puerto_destino": "Puerto de Almería",
+      "distancia_km": 180
+    },
+    {
+      "puerto_origen": "Puerto de Almería",
+      "puerto_destino": "Puerto de Motril",
+      "distancia_km": 80
+    },
+    {
+      "puerto_origen": "Puerto de Motril",
+      "puerto_destino": "Puerto de Málaga",
+      "distancia_km": 100
+    },
+    {
+      "puerto_origen": "Puerto de Málaga",
+      "puerto_destino": "Puerto de Algeciras",
+      "distancia_km": 110
+    },
+    {
+      "puerto_origen": "Puerto de Algeciras",
+      "puerto_destino": "Puerto de Ceuta",
+      "distancia_km": 22
+    },
+    {
+      "puerto_origen": "Puerto de Cádiz",
+      "puerto_destino": "Puerto de Huelva",
+      "distancia_km": 90
+    },
+    {
+      "puerto_origen": "Puerto de Huelva",
+      "puerto_destino": "Puerto de Sevilla (por río)",
+      "distancia_km": 85
+    },
+    {
+      "puerto_origen": "Puerto de Algeciras",
+      "puerto_destino": "Puerto de Melilla",
+      "distancia_km": 190
+    },
+    {
+      "puerto_origen": "Puerto de Málaga",
+      "puerto_destino": "Puerto de Melilla",
+      "distancia_km": 200
+    }
+  ]
+}

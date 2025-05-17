@@ -1,0 +1,254 @@
+{
+  "distancias_terrestres": [
+    {
+      "capital_origen": "Avila",
+      "capital_destino": "Albacete",
+      "distancia_km": 330
+    },
+    {
+      "capital_origen": "Avila",
+      "capital_destino": "Alicante",
+      "distancia_km": 520
+    },
+    {
+      "capital_origen": "Avila",
+      "capital_destino": "Almeria",
+      "distancia_km": 610
+    },
+    {
+      "capital_origen": "Albacete",
+      "capital_destino": "Alicante",
+      "distancia_km": 166
+    },
+    {
+      "capital_origen": "Albacete",
+      "capital_destino": "Almeria",
+      "distancia_km": 365
+    },
+    {
+      "capital_origen": "Alicante",
+      "capital_destino": "Almeria",
+      "distancia_km": 290
+    },
+    {
+      "capital_origen": "Avila",
+      "capital_destino": "Badajoz",
+      "distancia_km": 340
+    },
+    {
+      "capital_origen": "Albacete",
+      "capital_destino": "Barcelona",
+      "distancia_km": 540
+    },
+    {
+      "capital_origen": "Alicante",
+      "capital_destino": "Barcelona",
+      "distancia_km": 515
+    },
+    {
+      "capital_origen": "Almeria",
+      "capital_destino": "Barcelona",
+      "distancia_km": 805
+    },
+    {
+      "capital_origen": "Avila",
+      "capital_destino": "Barcelona",
+      "distancia_km": 640
+    },
+    {
+      "capital_origen": "Badajoz",
+      "capital_destino": "Barcelona",
+      "distancia_km": 890
+    },
+    {
+      "capital_origen": "Burgos",
+      "capital_destino": "Barcelona",
+      "distancia_km": 460
+    },
+    {
+      "capital_origen": "Caceres",
+      "capital_destino": "Barcelona",
+      "distancia_km": 820
+    },
+    {
+      "capital_origen": "Cadiz",
+      "capital_destino": "Barcelona",
+      "distancia_km": 1050
+    },
+    {
+      "capital_origen": "Castellon de la Plana",
+      "capital_destino": "Barcelona",
+      "distancia_km": 250
+    },
+    {
+      "capital_origen": "Ciudad Real",
+      "capital_destino": "Barcelona",
+      "distancia_km": 590
+    },
+    {
+      "capital_origen": "Cordoba",
+      "capital_destino": "Barcelona",
+      "distancia_km": 790
+    },
+    {
+      "capital_origen": "Cuenca",
+      "capital_destino": "Barcelona",
+      "distancia_km": 470
+    },
+    {
+      "capital_origen": "Gerona",
+      "capital_destino": "Barcelona",
+      "distancia_km": 100
+    },
+    {
+      "capital_origen": "Granada",
+      "capital_destino": "Barcelona",
+      "distancia_km": 840
+    },
+    {
+      "capital_origen": "Guadalajara",
+      "capital_destino": "Barcelona",
+      "distancia_km": 440
+    },
+    {
+      "capital_origen": "Huelva",
+      "capital_destino": "Barcelona",
+      "distancia_km": 980
+    },
+    {
+      "capital_origen": "Huesca",
+      "capital_destino": "Barcelona",
+      "distancia_km": 260
+    },
+    {
+      "capital_origen": "Jaen",
+      "capital_destino": "Barcelona",
+      "distancia_km": 740
+    },
+    {
+      "capital_origen": "Leon",
+      "capital_destino": "Barcelona",
+      "distancia_km": 690
+    },
+    {
+      "capital_origen": "Lerida",
+      "capital_destino": "Barcelona",
+      "distancia_km": 150
+    },
+    {
+      "capital_origen": "Logrono",
+      "capital_destino": "Barcelona",
+      "distancia_km": 380
+    },
+    {
+      "capital_origen": "Lugo",
+      "capital_destino": "Barcelona",
+      "distancia_km": 820
+    },
+    {
+      "capital_origen": "Madrid",
+      "capital_destino": "Barcelona",
+      "distancia_km": 620
+    },
+    {
+      "capital_origen": "Murcia",
+      "capital_destino": "Barcelona",
+      "distancia_km": 520
+    },
+    {
+      "capital_origen": "Orense",
+      "capital_destino": "Barcelona",
+      "distancia_km": 790
+    },
+    {
+      "capital_origen": "Oviedo",
+      "capital_destino": "Barcelona",
+      "distancia_km": 790
+    },
+    {
+      "capital_origen": "Palencia",
+      "capital_destino": "Barcelona",
+      "distancia_km": 610
+    },
+    {
+      "capital_origen": "Pamplona",
+      "capital_destino": "Barcelona",
+      "distancia_km": 350
+    },
+    {
+      "capital_origen": "Pontevedra",
+      "capital_destino": "Barcelona",
+      "distancia_km": 850
+    },
+    {
+      "capital_origen": "Salamanca",
+      "capital_destino": "Barcelona",
+      "distancia_km": 720
+    },
+    {
+      "capital_origen": "San Sebastian",
+      "capital_destino": "Barcelona",
+      "distancia_km": 480
+    },
+    {
+      "capital_origen": "Santander",
+      "capital_destino": "Barcelona",
+      "distancia_km": 680
+    },
+    {
+      "capital_origen": "Segovia",
+      "capital_destino": "Barcelona",
+      "distancia_km": 580
+    },
+    {
+      "capital_origen": "Sevilla",
+      "capital_destino": "Barcelona",
+      "distancia_km": 900
+    },
+    {
+      "capital_origen": "Soria",
+      "capital_destino": "Barcelona",
+      "distancia_km": 420
+    },
+    {
+      "capital_origen": "Tarragona",
+      "capital_destino": "Barcelona",
+      "distancia_km": 90
+    },
+    {
+      "capital_origen": "Teruel",
+      "capital_destino": "Barcelona",
+      "distancia_km": 320
+    },
+    {
+      "capital_origen": "Toledo",
+      "capital_destino": "Barcelona",
+      "distancia_km": 590
+    },
+    {
+      "capital_origen": "Valencia",
+      "capital_destino": "Barcelona",
+      "distancia_km": 350
+    },
+    {
+      "capital_origen": "Valladolid",
+      "capital_destino": "Barcelona",
+      "distancia_km": 640
+    },
+    {
+      "capital_origen": "Vitoria",
+      "capital_destino": "Barcelona",
+      "distancia_km": 480
+    },
+    {
+      "capital_origen": "Zamora",
+      "capital_destino": "Barcelona",
+      "distancia_km": 700
+    },
+    {
+      "capital_origen": "Zaragoza",
+      "capital_destino": "Barcelona",
+      "distancia_km": 300
+    }
+  ]
+}

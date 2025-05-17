@@ -326,6 +326,345 @@
           "puerto_mas_cercano": null
         }
       ]
+    },
+    {
+      "nombre": "Cáceres",
+      "capital": "Cáceres",
+      "es_costera": false,
+      "puerto_mas_cercano": {
+        "nombre": "Puerto de Huelva",
+        "distancia_km": 298,
+        "es_obligatorio": false
+      },
+      "ciudades_principales": [
+        {
+          "nombre": "Plasencia",
+          "distancia_km_capital": 83,
+          "puerto_mas_cercano": null
+        },
+        {
+          "nombre": "Navalmoral de la Mata",
+          "distancia_km_capital": 112,
+          "puerto_mas_cercano": null
+        },
+        {
+          "nombre": "Trujillo",
+          "distancia_km_capital": 45,
+          "puerto_mas_cercano": null
+        }
+      ]
+    },
+    {
+      "nombre": "Cádiz",
+      "capital": "Cádiz",
+      "es_costera": true,
+      "puerto_mas_cercano": {
+        "nombre": "Puerto de Cádiz",
+        "distancia_km": 0,
+        "es_obligatorio": false
+      },
+      "ciudades_principales": [
+        {
+          "nombre": "Jerez de la Frontera",
+          "distancia_km_capital": 33,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Cádiz",
+            "distancia_km": 33,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Algeciras",
+          "distancia_km_capital": 118,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Algeciras",
+            "distancia_km": 0,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "San Fernando",
+          "distancia_km_capital": 14,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Cádiz",
+            "distancia_km": 14,
+            "es_obligatorio": false
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Cantabria",
+      "capital": "Santander",
+      "es_costera": true,
+      "puerto_mas_cercano": {
+        "nombre": "Puerto de Santander",
+        "distancia_km": 0,
+        "es_obligatorio": false
+      },
+      "ciudades_principales": [
+        {
+          "nombre": "Torrelavega",
+          "distancia_km_capital": 27,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Santander",
+            "distancia_km": 27,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Castro Urdiales",
+          "distancia_km_capital": 75,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Bilbao",
+            "distancia_km": 35,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Camargo",
+          "distancia_km_capital": 10,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Santander",
+            "distancia_km": 10,
+            "es_obligatorio": false
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Castellón",
+      "capital": "Castellón de la Plana",
+      "es_costera": true,
+      "puerto_mas_cercano": {
+        "nombre": "Puerto de Castellón",
+        "distancia_km": 0,
+        "es_obligatorio": false
+      },
+      "ciudades_principales": [
+        {
+          "nombre": "Villarreal",
+          "distancia_km_capital": 8,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Castellón",
+            "distancia_km": 8,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Burriana",
+          "distancia_km_capital": 13,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Castellón",
+            "distancia_km": 13,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Benicarló",
+          "distancia_km_capital": 70,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Castellón",
+            "distancia_km": 70,
+            "es_obligatorio": false
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Ceuta",
+      "capital": "Ceuta",
+      "es_costera": true,
+      "puerto_mas_cercano": {
+        "nombre": "Puerto de Ceuta",
+        "distancia_km": 0,
+        "es_obligatorio": true
+      },
+      "ciudades_principales": [
+        {
+          "nombre": "Benzú",
+          "distancia_km_capital": 8,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Ceuta",
+            "distancia_km": 8,
+            "es_obligatorio": true
+          }
+        },
+        {
+          "nombre": "El Príncipe Alfonso",
+          "distancia_km_capital": 3,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Ceuta",
+            "distancia_km": 3,
+            "es_obligatorio": true
+          }
+        },
+        {
+          "nombre": "Recinto",
+          "distancia_km_capital": 2,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Ceuta",
+            "distancia_km": 2,
+            "es_obligatorio": true
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Ciudad Real",
+      "capital": "Ciudad Real",
+      "es_costera": false,
+      "puerto_mas_cercano": {
+        "nombre": "Puerto de Valencia",
+        "distancia_km": 310,
+        "es_obligatorio": false
+      },
+      "ciudades_principales": [
+        {
+          "nombre": "Puertollano",
+          "distancia_km_capital": 38,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Valencia",
+            "distancia_km": 348,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Tomelloso",
+          "distancia_km_capital": 96,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Valencia",
+            "distancia_km": 280,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Valdepeñas",
+          "distancia_km_capital": 60,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Valencia",
+            "distancia_km": 340,
+            "es_obligatorio": false
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Córdoba",
+      "capital": "Córdoba",
+      "es_costera": false,
+      "puerto_mas_cercano": {
+        "nombre": "Puerto de Sevilla",
+        "distancia_km": 140,
+        "es_obligatorio": false
+      },
+      "ciudades_principales": [
+        {
+          "nombre": "Lucena",
+          "distancia_km_capital": 68,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Sevilla",
+            "distancia_km": 200,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Puente Genil",
+          "distancia_km_capital": 76,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Sevilla",
+            "distancia_km": 216,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Montilla",
+          "distancia_km_capital": 45,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Sevilla",
+            "distancia_km": 185,
+            "es_obligatorio": false
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "A Coruña",
+      "capital": "A Coruña",
+      "es_costera": true,
+      "puerto_mas_cercano": {
+        "nombre": "Puerto de A Coruña",
+        "distancia_km": 0,
+        "es_obligatorio": false
+      },
+      "ciudades_principales": [
+        {
+          "nombre": "Santiago de Compostela",
+          "distancia_km_capital": 75,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de A Coruña",
+            "distancia_km": 75,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Ferrol",
+          "distancia_km_capital": 52,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Ferrol",
+            "distancia_km": 0,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Narón",
+          "distancia_km_capital": 55,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Ferrol",
+            "distancia_km": 5,
+            "es_obligatorio": false
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Cuenca",
+      "capital": "Cuenca",
+      "es_costera": false,
+      "puerto_mas_cercano": {
+        "nombre": "Puerto de Valencia",
+        "distancia_km": 197,
+        "es_obligatorio": false
+      },
+      "ciudades_principales": [
+        {
+          "nombre": "Tarancón",
+          "distancia_km_capital": 82,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Valencia",
+            "distancia_km": 245,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Quintanar del Rey",
+          "distancia_km_capital": 85,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Valencia",
+            "distancia_km": 170,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "San Clemente",
+          "distancia_km_capital": 110,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Valencia",
+            "distancia_km": 155,
+            "es_obligatorio": false
+          }
+        }
+      ]
     }
   ],
   "puertos_principales": [
@@ -360,9 +699,49 @@
       "ciudad_ubicacion": "Bilbao"
     },
     {
+      "nombre": "Puerto de Cádiz",
+      "provincia": "Cádiz",
+      "ciudad_ubicacion": "Cádiz"
+    },
+    {
+      "nombre": "Puerto de Algeciras",
+      "provincia": "Cádiz",
+      "ciudad_ubicacion": "Algeciras"
+    },
+    {
+      "nombre": "Puerto de Santander",
+      "provincia": "Cantabria",
+      "ciudad_ubicacion": "Santander"
+    },
+    {
+      "nombre": "Puerto de Castellón",
+      "provincia": "Castellón",
+      "ciudad_ubicacion": "Castellón de la Plana"
+    },
+    {
+      "nombre": "Puerto de Ceuta",
+      "provincia": "Ceuta",
+      "ciudad_ubicacion": "Ceuta"
+    },
+    {
+      "nombre": "Puerto de A Coruña",
+      "provincia": "A Coruña",
+      "ciudad_ubicacion": "A Coruña"
+    },
+    {
+      "nombre": "Puerto de Ferrol",
+      "provincia": "A Coruña",
+      "ciudad_ubicacion": "Ferrol"
+    },
+    {
       "nombre": "Puerto de Huelva",
       "provincia": "Huelva",
       "ciudad_ubicacion": "Huelva"
+    },
+    {
+      "nombre": "Puerto de Sevilla",
+      "provincia": "Sevilla",
+      "ciudad_ubicacion": "Sevilla"
     },
     {
       "nombre": "Puerto de Valencia",

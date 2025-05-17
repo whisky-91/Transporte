@@ -1,5 +1,5 @@
-import { tarifas } from "./tarifas";
-import { Transporte } from "./Transporte";
+import { tarifas } from "./tarifas.js";
+import { Transporte } from "./Transporte.js";
 
 export class Maritimo extends Transporte {
   pesoMax: number = Infinity; // Sin límite

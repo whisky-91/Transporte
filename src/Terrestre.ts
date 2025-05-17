@@ -1,5 +1,5 @@
-import { tarifas } from "./tarifas";
-import { Transporte } from "./Transporte";
+import { tarifas } from "./tarifas.js";
+import { Transporte } from "./Transporte.js";
 
 export class Terrestre extends Transporte {
   static tipo: string = "terrestre";

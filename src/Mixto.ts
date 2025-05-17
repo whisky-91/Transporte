@@ -1,4 +1,4 @@
-import { Transporte } from "./Transporte";
+import { Transporte } from "./Transporte.js";
 
 export class Mixto extends Transporte {
   pesoMax: number[] = [];

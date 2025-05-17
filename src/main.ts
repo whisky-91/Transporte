@@ -1,6 +1,6 @@
-import { Terrestre } from "./Terrestre.js";
-import { Maritimo } from "./Maritimo.js";
-import { Mixto } from "./Mixto.js";
+import { Terrestre } from "./transportes/Terrestre.js";
+import { Maritimo } from "./transportes/Maritimo.js";
+import { Mixto } from "./transportes/Mixto.js";
 
 // Carga a transportar
 const pesoTotal = 15000;

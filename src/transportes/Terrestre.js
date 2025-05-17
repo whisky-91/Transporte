@@ -1,4 +1,4 @@
-import { tarifas } from "./tarifas.js";
+import { tarifas } from "../tarifas.js";
 import { Transporte } from "./Transporte.js";
 export class Terrestre extends Transporte {
     constructor(peso, distancia) {

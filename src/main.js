@@ -1,6 +1,6 @@
-import { Terrestre } from "./Terrestre.js";
-import { Maritimo } from "./Maritimo.js";
-import { Mixto } from "./Mixto.js";
+import { Terrestre } from "./transportes/Terrestre.js";
+import { Maritimo } from "./transportes/Maritimo.js";
+import { Mixto } from "./transportes/Mixto.js";
 const pesoTotal = 15000;
 const tramo1 = new Terrestre(pesoTotal, 500);
 const tramo2 = new Maritimo(pesoTotal, 2000);

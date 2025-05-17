@@ -108,6 +108,111 @@
           }
         }
       ]
+    },
+    {
+      "nombre": "Almería",
+      "capital": "Almería",
+      "es_costera": true,
+      "puerto_mas_cercano": {
+        "nombre": "Puerto de Almería",
+        "distancia_km": 0,
+        "es_obligatorio": false
+      },
+      "ciudades_principales": [
+        {
+          "nombre": "El Ejido",
+          "distancia_km_capital": 32,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Almería",
+            "distancia_km": 32,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Roquetas de Mar",
+          "distancia_km_capital": 25,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Almería",
+            "distancia_km": 25,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Níjar",
+          "distancia_km_capital": 30,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Almería",
+            "distancia_km": 30,
+            "es_obligatorio": false
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Asturias",
+      "capital": "Oviedo",
+      "es_costera": false,
+      "puerto_mas_cercano": {
+        "nombre": "Puerto de Gijón",
+        "distancia_km": 28,
+        "es_obligatorio": false
+      },
+      "ciudades_principales": [
+        {
+          "nombre": "Gijón",
+          "distancia_km_capital": 28,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Gijón",
+            "distancia_km": 0,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Avilés",
+          "distancia_km_capital": 26,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Avilés",
+            "distancia_km": 0,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Mieres",
+          "distancia_km_capital": 19,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Gijón",
+            "distancia_km": 47,
+            "es_obligatorio": false
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Ávila",
+      "capital": "Ávila",
+      "es_costera": false,
+      "puerto_mas_cercano": {
+        "nombre": "Puerto de Valencia",
+        "distancia_km": 445,
+        "es_obligatorio": false
+      },
+      "ciudades_principales": [
+        {
+          "nombre": "Arévalo",
+          "distancia_km_capital": 52,
+          "puerto_mas_cercano": null
+        },
+        {
+          "nombre": "Las Navas del Marqués",
+          "distancia_km_capital": 40,
+          "puerto_mas_cercano": null
+        },
+        {
+          "nombre": "Cebreros",
+          "distancia_km_capital": 42,
+          "puerto_mas_cercano": null
+        }
+      ]
     }
   ],
   "puertos_principales": [
@@ -115,6 +220,21 @@
       "nombre": "Puerto de Alicante",
       "provincia": "Alicante",
       "ciudad_ubicacion": "Alicante"
+    },
+    {
+      "nombre": "Puerto de Almería",
+      "provincia": "Almería",
+      "ciudad_ubicacion": "Almería"
+    },
+    {
+      "nombre": "Puerto de Gijón",
+      "provincia": "Asturias",
+      "ciudad_ubicacion": "Gijón"
+    },
+    {
+      "nombre": "Puerto de Avilés",
+      "provincia": "Asturias",
+      "ciudad_ubicacion": "Avilés"
     },
     {
       "nombre": "Puerto de Bilbao",

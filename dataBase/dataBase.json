@@ -550,12 +550,12 @@
       ]
     },
     {
-      "nombre": "Córdoba",
-      "capital": "Córdoba",
+      "nombre": "Cordoba",
+      "capital": "Cordoba",
       "es_costera": false,
       "puerto_mas_cercano": {
-        "nombre": "Puerto de Sevilla",
-        "distancia_km": 140,
+        "nombre": "Puerto de Cadiz",
+        "distancia_km": 210,
         "es_obligatorio": false
       },
       "ciudades_principales": [
@@ -563,8 +563,8 @@
           "nombre": "Lucena",
           "distancia_km_capital": 68,
           "puerto_mas_cercano": {
-            "nombre": "Puerto de Sevilla",
-            "distancia_km": 200,
+            "nombre": "Puerto de Cadiz",
+            "distancia_km": 170,
             "es_obligatorio": false
           }
         },
@@ -572,8 +572,8 @@
           "nombre": "Puente Genil",
           "distancia_km_capital": 76,
           "puerto_mas_cercano": {
-            "nombre": "Puerto de Sevilla",
-            "distancia_km": 216,
+            "nombre": "Puerto de Cadiz",
+            "distancia_km": 190,
             "es_obligatorio": false
           }
         },
@@ -581,8 +581,8 @@
           "nombre": "Montilla",
           "distancia_km_capital": 45,
           "puerto_mas_cercano": {
-            "nombre": "Puerto de Sevilla",
-            "distancia_km": 185,
+            "nombre": "Puerto de Cadiz",
+            "distancia_km": 180,
             "es_obligatorio": false
           }
         }
@@ -1271,6 +1271,318 @@
           }
         }
       ]
+    },
+    {
+      "nombre": "Ourense",
+      "capital": "Ourense",
+      "es_costera": false,
+      "puerto_mas_cercano": {
+        "nombre": "Puerto de Vigo",
+        "distancia_km": 85,
+        "es_obligatorio": false
+      },
+      "ciudades_principales": [
+        {
+          "nombre": "O Barco de Valdeorras",
+          "distancia_km_capital": 70,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Vigo",
+            "distancia_km": 150,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Ribadavia",
+          "distancia_km_capital": 40,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Vigo",
+            "distancia_km": 110,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Verín",
+          "distancia_km_capital": 60,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Vigo",
+            "distancia_km": 120,
+            "es_obligatorio": false
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Palencia",
+      "capital": "Palencia",
+      "es_costera": false,
+      "puerto_mas_cercano": {
+        "nombre": "Puerto de Santander",
+        "distancia_km": 110,
+        "es_obligatorio": false
+      },
+      "ciudades_principales": [
+        {
+          "nombre": "Guardo",
+          "distancia_km_capital": 50,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Santander",
+            "distancia_km": 160,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Carrión de los Condes",
+          "distancia_km_capital": 30,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Santander",
+            "distancia_km": 140,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Venta de Baños",
+          "distancia_km_capital": 20,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Santander",
+            "distancia_km": 130,
+            "es_obligatorio": false
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Las Palmas",
+      "capital": "Las Palmas de Gran Canaria",
+      "es_costera": true,
+      "puerto_mas_cercano": {
+        "nombre": "Puerto de Las Palmas",
+        "distancia_km": 0,
+        "es_obligatorio": true
+      },
+      "ciudades_principales": [
+        {
+          "nombre": "Telde",
+          "distancia_km_capital": 17,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Las Palmas",
+            "distancia_km": 17,
+            "es_obligatorio": true
+          }
+        },
+        {
+          "nombre": "Santa Lucía de Tirajana",
+          "distancia_km_capital": 30,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Las Palmas",
+            "distancia_km": 30,
+            "es_obligatorio": true
+          }
+        },
+        {
+          "nombre": "San Bartolomé de Tirajana",
+          "distancia_km_capital": 40,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Las Palmas",
+            "distancia_km": 40,
+            "es_obligatorio": true
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Pontevedra",
+      "capital": "Pontevedra",
+      "es_costera": true,
+      "puerto_mas_cercano": {
+        "nombre": "Puerto de Vigo",
+        "distancia_km": 15,
+        "es_obligatorio": false
+      },
+      "ciudades_principales": [
+        {
+          "nombre": "Vigo",
+          "distancia_km_capital": 28,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Vigo",
+            "distancia_km": 0,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Redondela",
+          "distancia_km_capital": 20,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Vigo",
+            "distancia_km": 10,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "O Porriño",
+          "distancia_km_capital": 18,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Vigo",
+            "distancia_km": 12,
+            "es_obligatorio": false
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "La Rioja",
+      "capital": "Logroño",
+      "es_costera": false,
+      "puerto_mas_cercano": {
+        "nombre": "Puerto de Bilbao",
+        "distancia_km": 150,
+        "es_obligatorio": false
+      },
+      "ciudades_principales": [
+        {
+          "nombre": "Calahorra",
+          "distancia_km_capital": 45,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Bilbao",
+            "distancia_km": 195,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Haro",
+          "distancia_km_capital": 50,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Bilbao",
+            "distancia_km": 160,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Arnedo",
+          "distancia_km_capital": 40,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Bilbao",
+            "distancia_km": 180,
+            "es_obligatorio": false
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Salamanca",
+      "capital": "Salamanca",
+      "es_costera": false,
+      "puerto_mas_cercano": {
+        "nombre": "Puerto de Santander",
+        "distancia_km": 210,
+        "es_obligatorio": false
+      },
+      "ciudades_principales": [
+        {
+          "nombre": "Santa Marta de Tormes",
+          "distancia_km_capital": 5,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Santander",
+            "distancia_km": 215,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Guijuelo",
+          "distancia_km_capital": 50,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Santander",
+            "distancia_km": 260,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Ciudad Rodrigo",
+          "distancia_km_capital": 95,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Santander",
+            "distancia_km": 275,
+            "es_obligatorio": false
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Segovia",
+      "capital": "Segovia",
+      "es_costera": false,
+      "puerto_mas_cercano": {
+        "nombre": "Puerto de Santander",
+        "distancia_km": 130,
+        "es_obligatorio": false
+      },
+      "ciudades_principales": [
+        {
+          "nombre": "Cuéllar",
+          "distancia_km_capital": 35,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Santander",
+            "distancia_km": 165,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "El Espinar",
+          "distancia_km_capital": 25,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Santander",
+            "distancia_km": 155,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Palazuelos de Eresma",
+          "distancia_km_capital": 5,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Santander",
+            "distancia_km": 130,
+            "es_obligatorio": false
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Sevilla",
+      "capital": "Sevilla",
+      "es_costera": false,
+      "puerto_mas_cercano": {
+        "nombre": "Puerto de Cádiz",
+        "distancia_km": 120,
+        "es_obligatorio": false
+      },
+      "ciudades_principales": [
+        {
+          "nombre": "Dos Hermanas",
+          "distancia_km_capital": 15,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Cádiz",
+            "distancia_km": 135,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Alcalá de Guadaíra",
+          "distancia_km_capital": 15,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Cádiz",
+            "distancia_km": 140,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Utrera",
+          "distancia_km_capital": 30,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Cádiz",
+            "distancia_km": 150,
+            "es_obligatorio": false
+          }
+        }
+      ]
     }
   ],
   "puertos_principales": [
@@ -1385,9 +1697,14 @@
       "ciudad_ubicacion": "Cartagena"
     },
     {
-      "nombre": "Puerto de Sevilla",
-      "provincia": "Sevilla",
-      "ciudad_ubicacion": "Sevilla"
+      "nombre": "Puerto de Las Palmas",
+      "provincia": "Las Palmas",
+      "ciudad_ubicacion": "Las Palmas de Gran Canaria"
+    },
+    {
+      "nombre": "Puerto de Vigo",
+      "provincia": "Pontevedra",
+      "ciudad_ubicacion": "Vigo"
     },
     {
       "nombre": "Puerto de Valencia",

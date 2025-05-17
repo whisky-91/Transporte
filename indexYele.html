@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <header class="main-header">
+      <h1>Buscador de Rutas 🚍</h1>
+      <p>Encuentra la mejor ruta entre tus ciudades favoritas</p>
+    </header>
+
     <div class="container">
       <h2>Busca tu Ruta</h2>
 
@@ -16,9 +21,26 @@
       <label for="destino">Ciudad de Destino</label>
       <input type="text" id="destino" placeholder="Ej. Valencia" />
 
+      <label for="tipoRuta">Tipo de Ruta</label>
+      <select id="tipoRuta">
+        <option value="ambas">Ambas</option>
+        <option value="terrestre">Terrestre</option>
+        <option value="maritimo">Marítimo</option>
+      </select>
+
       <button onclick="buscarRuta()">Buscar Ruta</button>
 
       <div class="results" id="resultados"></div>
     </div>
+
+    <footer class="main-footer">
+      <p>
+        <a href="#">Términos & Privacidad</a> |
+        <a href="https://www.facebook.com" target="_blank">Facebook</a>
+      </p>
+      <p>&copy; 2025 Buscador de Rutas</p>
+    </footer>
+
+    <script></script>
   </body>
 </html>

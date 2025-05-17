@@ -8,12 +8,7 @@ Rama encarcada de la implementación de back-end y refactorización del mismo.
   facilmente.   
 - He rebautizado algunas prpiedades de las clases.
 - He redefinido la lógica de la clase Terrestre.
-- He redefinido la lógica de la clase Mixto. 
-  - EXPLICACIÓN: Ya que mixto hace referencia a la suma entre transporte 
-    terrestre y transporte marítimo. Considero que no tiene sentido que 
-    herede de la clase Transporte, como sí lo hacen Maritimo y Terrestre.
-    No estamos hablando de un tercer tipo de transporte, sino la suma de
-    estos dos.
+- He redefinido la lógica de la clase Mixto.
 - He separado cada una de las clases a su correspondiente ".ts".
 
 ## Datos a tener en cuenta

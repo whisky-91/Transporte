@@ -1,10 +1,12 @@
-//Creamos la clase abstract para usar de base
+/**
+ * Clase abstract para usar de base para las calses hijas
+ */
 export abstract class Transporte {
-  abstract precioKg: number;
-  abstract precioKm: number;
-  abstract distancia: number;
-  abstract peso: number
+  abstract pesoMax: number | number[];
+  abstract peso: number;
+  abstract precioKg: number | number[];
+  abstract precioKm: number | number[];
+  abstract distancia: number | number[];
 
-  //Metodo abstracto para calcular el precio
   abstract calcularPrecio(): number;
 }

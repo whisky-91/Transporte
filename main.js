@@ -1,14 +1,13 @@
-"use strict";
 define("tarifas", ["require", "exports"], function (require, exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.tarifas = void 0;
     exports.tarifas = {
+        PesoMaxTerrestre: 5000,
         KmTerrestre: 2,
         KmMaritimo: 1,
         KgTerrestre: 0.5,
-        KgMarino: 0.2,
-        MaxPeso: 5000
+        KgMarino: 0.2
     };
 });
 define("Transporte", ["require", "exports"], function (require, exports) {
@@ -24,94 +23,93 @@ define("Maritimo", ["require", "exports", "tarifas", "Transporte"], function (re
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.Maritimo = void 0;
     class Maritimo extends Transporte_1.Transporte {
-        constructor(distancia = 0, peso = 0) {
+        constructor(peso, distancia) {
             super();
+            this.pesoMax = Infinity;
             this.precioKg = tarifas_1.tarifas.KgMarino;
             this.precioKm = tarifas_1.tarifas.KmMaritimo;
-            this.distancia = distancia;
             this.peso = peso;
+            this.distancia = distancia;
+        }
+        portadoresNecesarios() {
+            return 1;
         }
         calcularPrecio() {
-            let precio = this.distancia * this.precioKm + this.peso * this.precioKg;
-            precio = Number(precio.toFixed(2));
-            return precio;
+            const precio = this.distancia * this.precioKm * this.peso * this.precioKg;
+            return Number(precio.toFixed(2));
         }
     }
     exports.Maritimo = Maritimo;
-    Maritimo.tipo = "maritimo";
 });
-define("Terrestre", ["require", "exports", "tarifas", "Transporte"], function (require, exports, tarifas_2, Transporte_2) {
+define("Mixto", ["require", "exports", "Transporte"], function (require, exports, Transporte_2) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.Mixto = void 0;
+    class Mixto extends Transporte_2.Transporte {
+        constructor(peso, ...medios) {
+            super();
+            this.pesoMax = [];
+            this.precioKg = [];
+            this.precioKm = [];
+            this.distancia = [];
+            this.medios = [];
+            this.peso = peso;
+            this.medios = medios;
+            for (const medio of this.medios) {
+                this.precioKm.push(medio.precioKm);
+                this.precioKg.push(Number(medio.precioKg));
+                this.distancia.push(medio.distancia);
+                this.pesoMax.push(medio instanceof Mixto ? Infinity : Number(medio.pesoMax));
+            }
+        }
+        calcularPrecio() {
+            let precioTotal = 0;
+            this.medios.forEach((medio) => {
+                const pesoMaximo = medio instanceof Mixto ? Infinity : Number(medio.pesoMax);
+                const portadores = pesoMaximo === Infinity ? 1 : Math.ceil(this.peso / pesoMaximo);
+                const distancia = Number(medio.distancia);
+                const precioKm = Number(medio.precioKm);
+                const precioKg = Number(medio.precioKg);
+                const precio = distancia * precioKm * portadores * precioKg;
+                precioTotal += precio;
+            });
+            return Number(precioTotal.toFixed(2));
+        }
+    }
+    exports.Mixto = Mixto;
+});
+define("Terrestre", ["require", "exports", "tarifas", "Transporte"], function (require, exports, tarifas_2, Transporte_3) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.Terrestre = void 0;
-    class Terrestre extends Transporte_2.Transporte {
-        constructor(distancia = 0, peso = 0) {
+    class Terrestre extends Transporte_3.Transporte {
+        constructor(peso, distancia) {
             super();
-            this.pesoMax = tarifas_2.tarifas.MaxPeso;
+            this.pesoMax = tarifas_2.tarifas.PesoMaxTerrestre;
             this.precioKg = tarifas_2.tarifas.KgTerrestre;
             this.precioKm = tarifas_2.tarifas.KmTerrestre;
-            this.distancia = distancia;
             this.peso = peso;
+            this.distancia = distancia;
         }
-        camionesNecesarios() {
-            const numCamiones = Math.ceil(this.peso / this.pesoMax);
-            return numCamiones;
+        portadoresNecesarios() {
+            return Math.ceil(this.peso / this.pesoMax);
         }
         calcularPrecio() {
-            const camiones = this.camionesNecesarios();
-            let precio = this.distancia * this.precioKm * camiones * this.precioKg;
-            precio = Number(precio.toFixed(2));
-            return precio;
+            const portadores = this.portadoresNecesarios();
+            const precio = this.distancia * this.precioKm * portadores * this.precioKg;
+            return Number(precio.toFixed(2));
         }
     }
     exports.Terrestre = Terrestre;
     Terrestre.tipo = "terrestre";
 });
-define("Mixto", ["require", "exports", "Terrestre", "Maritimo"], function (require, exports, Terrestre_1, Maritimo_1) {
+define("main", ["require", "exports", "Terrestre", "Maritimo", "Mixto"], function (require, exports, Terrestre_1, Maritimo_1, Mixto_1) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
-    exports.Mixto = void 0;
-    class Mixto {
-        constructor(kmTerrestres, kmMaritimos, peso) {
-            this.rutaTerrestre = new Terrestre_1.Terrestre();
-            this.rutaMaritima = new Maritimo_1.Maritimo();
-            this.peso = peso;
-        }
-        calcularPrecio() {
-            let costoMaritimo = this.rutaMaritima.calcularPrecio();
-            let costoTerrestre = this.rutaTerrestre.calcularPrecio();
-            let precio = costoTerrestre + costoMaritimo;
-            precio = Number(precio.toFixed(2));
-            return precio;
-        }
-    }
-    exports.Mixto = Mixto;
+    const pesoTotal = 15000;
+    const tramo1 = new Terrestre_1.Terrestre(pesoTotal, 500);
+    const tramo2 = new Maritimo_1.Maritimo(pesoTotal, 2000);
+    const tramo3 = new Terrestre_1.Terrestre(pesoTotal, 300);
+    const combinado = new Mixto_1.Mixto(pesoTotal, tramo1, tramo2, tramo3);
+    console.log("Precio total del transporte mixto:", combinado.calcularPrecio(), "€");
 });
-function main() {
-    var _a;
-    const tipo = (_a = prompt("Tipo de transporte (maritimo, terrestre, mixto):")) === null || _a === void 0 ? void 0 : _a.toLowerCase();
-    switch (tipo) {
-        case "maritimo":
-            const distanciaMar = Number(prompt("Distancia en km:"));
-            const pesoMar = Number(prompt("Peso en kg:"));
-            const maritimo = new Maritimo(distanciaMar, pesoMar);
-            maritimo.calcularPrecio();
-            break;
-        case "terrestre":
-            const distanciaTerr = Number(prompt("Distancia en km:"));
-            const pesoTerr = Number(prompt("Peso en kg:"));
-            const terrestre = new Terrestre(distanciaTerr, pesoTerr);
-            terrestre.calcularPrecio();
-            break;
-        case "mixto":
-            const kmTierra = Number(prompt("¿Cuántos km por tierra?"));
-            const kmMar = Number(prompt("¿Cuántos km por mar?"));
-            const pesoMixto = Number(prompt("Peso total en kg:"));
-            const mixto = new Mixto(kmTierra, kmMar, pesoMixto);
-            mixto.calcularPrecio();
-            break;
-        default:
-            console.log("Tipo de transporte no válido.");
-    }
-}
-main();

@@ -1,27 +1,48 @@
 import { Transporte } from "./Transporte";
-import { Terrestre } from "./Terrestre";
-import { Maritimo } from "./Maritimo";
 
-export class Mixto {
-  //propiedades propias de Mixto para almacenar los kilometros terrestres y marítimos
-  rutaTerrestre: Transporte;
-  rutaMaritima: Transporte;
+export class Mixto extends Transporte {
+  pesoMax: number[] = [];
   peso: number;
+  precioKg: number[] = [];
+  precioKm: number[] = [];
+  distancia: number[] = [];
+  medios: Transporte[] = [];
 
-  constructor(kmTerrestres: number, kmMaritimos: number, peso: number) {
-    //sumamos los kmTerrestres y maritimos para que en el constructor padre se pase la distancia total, que es lo que recibe.
-
-    this.rutaTerrestre = new Terrestre();
-    this.rutaMaritima = new Maritimo();
+  constructor(peso: number, ...medios: Transporte[]) {
+    super();
     this.peso = peso;
+    this.medios = medios;
+
+    for (const medio of this.medios) {
+      this.precioKm.push(medio.precioKm as number);
+      this.precioKg.push(Number(medio.precioKg));
+      this.distancia.push(<number>medio.distancia);
+      this.pesoMax.push(
+        medio instanceof Mixto ? Infinity : Number(medio.pesoMax)
+      );
+    }
   }
 
   calcularPrecio(): number {
-    let costoMaritimo = this.rutaMaritima.calcularPrecio()
-    let costoTerrestre = this.rutaTerrestre.calcularPrecio()
-    //Calculamos el precio
-    let precio = costoTerrestre + costoMaritimo;
-    precio = Number(precio.toFixed(2))  // 2 decimales
-    return precio;
+    let precioTotal = 0;
+
+    this.medios.forEach((medio) => {
+      const pesoMaximo =
+        medio instanceof Mixto ? Infinity : Number(medio.pesoMax);
+      const portadores =
+        pesoMaximo === Infinity ? 1 : Math.ceil(this.peso / pesoMaximo);
+
+      const distancia = Number(medio.distancia);
+      const precioKm = Number(medio.precioKm);
+      const precioKg = Number(medio.precioKg);
+
+      const precio =
+        distancia * precioKm * portadores * precioKg;
+
+      precioTotal += precio;
+    });
+
+    return Number(precioTotal.toFixed(2));
   }
 }
+

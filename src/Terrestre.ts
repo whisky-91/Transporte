@@ -3,31 +3,26 @@ import { Transporte } from "./Transporte";
 
 export class Terrestre extends Transporte {
   static tipo: string = "terrestre";
-  pesoMax: number = tarifas.MaxPeso
+  peso: number;
+  pesoMax: number = tarifas.PesoMaxTerrestre;
   precioKg: number = tarifas.KgTerrestre;
   precioKm: number = tarifas.KmTerrestre;
   distancia: number;
-  peso: number;
-  //constructor
-  constructor(
-    distancia: number = 0,
-    peso: number = 0
-  ) {
-    super()
-    this.distancia = distancia;
+
+  constructor(peso: number, distancia: number) {
+    super();
     this.peso = peso;
+    this.distancia = distancia;
   }
-  // Dividimos la carga en varios camiones, de ser necesario
-  camionesNecesarios(): number {
-    const numCamiones = Math.ceil(this.peso / this.pesoMax);
-    return numCamiones
+
+  portadoresNecesarios(): number {
+    return Math.ceil(this.peso / this.pesoMax);
   }
-  //Método calcular precio
+
   calcularPrecio(): number {
-    const camiones = this.camionesNecesarios()
-    //Calculamos el precio
-    let precio = this.distancia * this.precioKm * camiones * this.precioKg;
-    precio = Number(precio.toFixed(2))  // 2 decimales
-    return precio;
+    const portadores = this.portadoresNecesarios();
+    const precio =
+      this.distancia * this.precioKm * portadores * this.precioKg;
+    return Number(precio.toFixed(2));
   }
 }

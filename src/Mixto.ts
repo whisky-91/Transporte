@@ -1,6 +1,6 @@
-import { Transporte } from "./Transporte.js";
-import { Terrestre } from "./Terrestre.js";
-import { Maritimo } from "./Maritimo.js";
+import { Transporte } from "./Transporte";
+import { Terrestre } from "./Terrestre";
+import { Maritimo } from "./Maritimo";
 
 export class Mixto {
   //propiedades propias de Mixto para almacenar los kilometros terrestres y marítimos

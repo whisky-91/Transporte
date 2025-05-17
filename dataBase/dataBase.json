@@ -665,6 +665,201 @@
           }
         }
       ]
+    },
+    {
+      "nombre": "Girona",
+      "capital": "Girona",
+      "es_costera": true,
+      "puerto_mas_cercano": {
+        "nombre": "Puerto de Barcelona",
+        "distancia_km": 100,
+        "es_obligatorio": false
+      },
+      "ciudades_principales": [
+        {
+          "nombre": "Figueres",
+          "distancia_km_capital": 40,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Barcelona",
+            "distancia_km": 140,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Blanes",
+          "distancia_km_capital": 40,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Barcelona",
+            "distancia_km": 75,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Lloret de Mar",
+          "distancia_km_capital": 30,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Barcelona",
+            "distancia_km": 85,
+            "es_obligatorio": false
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Granada",
+      "capital": "Granada",
+      "es_costera": true,
+      "puerto_mas_cercano": {
+        "nombre": "Puerto de Motril",
+        "distancia_km": 70,
+        "es_obligatorio": false
+      },
+      "ciudades_principales": [
+        {
+          "nombre": "Motril",
+          "distancia_km_capital": 70,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Motril",
+            "distancia_km": 0,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Almuñécar",
+          "distancia_km_capital": 70,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Motril",
+            "distancia_km": 15,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Ogíjares",
+          "distancia_km_capital": 5,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Motril",
+            "distancia_km": 75,
+            "es_obligatorio": false
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Guadalajara",
+      "capital": "Guadalajara",
+      "es_costera": false,
+      "puerto_mas_cercano": {
+        "nombre": "Puerto de Valencia",
+        "distancia_km": 240,
+        "es_obligatorio": false
+      },
+      "ciudades_principales": [
+        {
+          "nombre": "Azuqueca de Henares",
+          "distancia_km_capital": 8,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Valencia",
+            "distancia_km": 230,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Cabanillas del Campo",
+          "distancia_km_capital": 12,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Valencia",
+            "distancia_km": 225,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Marchamalo",
+          "distancia_km_capital": 7,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Valencia",
+            "distancia_km": 238,
+            "es_obligatorio": false
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Gipuzkoa",
+      "capital": "Donostia-San Sebastián",
+      "es_costera": true,
+      "puerto_mas_cercano": {
+        "nombre": "Puerto de Pasaia",
+        "distancia_km": 0,
+        "es_obligatorio": false
+      },
+      "ciudades_principales": [
+        {
+          "nombre": "Errenteria",
+          "distancia_km_capital": 6,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Pasaia",
+            "distancia_km": 6,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Hondarribia",
+          "distancia_km_capital": 20,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Pasaia",
+            "distancia_km": 20,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Irun",
+          "distancia_km_capital": 15,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Pasaia",
+            "distancia_km": 15,
+            "es_obligatorio": false
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Huelva",
+      "capital": "Huelva",
+      "es_costera": true,
+      "puerto_mas_cercano": {
+        "nombre": "Puerto de Huelva",
+        "distancia_km": 0,
+        "es_obligatorio": false
+      },
+      "ciudades_principales": [
+        {
+          "nombre": "Lepe",
+          "distancia_km_capital": 50,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Huelva",
+            "distancia_km": 50,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Almonte",
+          "distancia_km_capital": 40,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Huelva",
+            "distancia_km": 40,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Ayamonte",
+          "distancia_km_capital": 90,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Huelva",
+            "distancia_km": 90,
+            "es_obligatorio": false
+          }
+        }
+      ]
     }
   ],
   "puertos_principales": [
@@ -732,6 +927,16 @@
       "nombre": "Puerto de Ferrol",
       "provincia": "A Coruña",
       "ciudad_ubicacion": "Ferrol"
+    },
+    {
+      "nombre": "Puerto de Motril",
+      "provincia": "Granada",
+      "ciudad_ubicacion": "Motril"
+    },
+    {
+      "nombre": "Puerto de Pasaia",
+      "provincia": "Gipuzkoa",
+      "ciudad_ubicacion": "Pasaia"
     },
     {
       "nombre": "Puerto de Huelva",

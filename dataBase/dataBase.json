@@ -1115,7 +1115,7 @@
           }
         },
         {
-          "nombre": "Alcalá de Henares",
+          "nombre": "Alcala de Henares",
           "distancia_km_capital": 35,
           "puerto_mas_cercano": {
             "nombre": "Puerto de Valencia",
@@ -1550,7 +1550,7 @@
       "capital": "Sevilla",
       "es_costera": false,
       "puerto_mas_cercano": {
-        "nombre": "Puerto de Cádiz",
+        "nombre": "Puerto de Cadiz",
         "distancia_km": 120,
         "es_obligatorio": false
       },
@@ -1559,16 +1559,16 @@
           "nombre": "Dos Hermanas",
           "distancia_km_capital": 15,
           "puerto_mas_cercano": {
-            "nombre": "Puerto de Cádiz",
+            "nombre": "Puerto de Cadiz",
             "distancia_km": 135,
             "es_obligatorio": false
           }
         },
         {
-          "nombre": "Alcalá de Guadaíra",
+          "nombre": "Alcala de Guadaíra",
           "distancia_km_capital": 15,
           "puerto_mas_cercano": {
-            "nombre": "Puerto de Cádiz",
+            "nombre": "Puerto de Cadiz",
             "distancia_km": 140,
             "es_obligatorio": false
           }
@@ -1577,8 +1577,398 @@
           "nombre": "Utrera",
           "distancia_km_capital": 30,
           "puerto_mas_cercano": {
-            "nombre": "Puerto de Cádiz",
+            "nombre": "Puerto de Cadiz",
             "distancia_km": 150,
+            "es_obligatorio": false
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Soria",
+      "capital": "Soria",
+      "es_costera": false,
+      "puerto_mas_cercano": {
+        "nombre": "Puerto de Bilbao",
+        "distancia_km": 190,
+        "es_obligatorio": false
+      },
+      "ciudades_principales": [
+        {
+          "nombre": "Olvega",
+          "distancia_km_capital": 22,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Bilbao",
+            "distancia_km": 170,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Almazan",
+          "distancia_km_capital": 38,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Bilbao",
+            "distancia_km": 200,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "San Esteban de Gormaz",
+          "distancia_km_capital": 42,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Bilbao",
+            "distancia_km": 180,
+            "es_obligatorio": false
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Tarragona",
+      "capital": "Tarragona",
+      "es_costera": true,
+      "puerto_mas_cercano": {
+        "nombre": "Puerto de Tarragona",
+        "distancia_km": 0,
+        "es_obligatorio": false
+      },
+      "ciudades_principales": [
+        {
+          "nombre": "Reus",
+          "distancia_km_capital": 10,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Tarragona",
+            "distancia_km": 10,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Valls",
+          "distancia_km_capital": 25,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Tarragona",
+            "distancia_km": 25,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Amposta",
+          "distancia_km_capital": 55,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Tarragona",
+            "distancia_km": 55,
+            "es_obligatorio": false
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Santa Cruz de Tenerife",
+      "capital": "Santa Cruz de Tenerife",
+      "es_costera": true,
+      "puerto_mas_cercano": {
+        "nombre": "Puerto de Santa Cruz de Tenerife",
+        "distancia_km": 0,
+        "es_obligatorio": true
+      },
+      "ciudades_principales": [
+        {
+          "nombre": "La Laguna",
+          "distancia_km_capital": 12,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Santa Cruz de Tenerife",
+            "distancia_km": 12,
+            "es_obligatorio": true
+          }
+        },
+        {
+          "nombre": "La Orotava",
+          "distancia_km_capital": 30,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Santa Cruz de Tenerife",
+            "distancia_km": 30,
+            "es_obligatorio": true
+          }
+        },
+        {
+          "nombre": "Puerto de la Cruz",
+          "distancia_km_capital": 28,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Santa Cruz de Tenerife",
+            "distancia_km": 28,
+            "es_obligatorio": true
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Teruel",
+      "capital": "Teruel",
+      "es_costera": false,
+      "puerto_mas_cercano": {
+        "nombre": "Puerto de Valencia",
+        "distancia_km": 150,
+        "es_obligatorio": false
+      },
+      "ciudades_principales": [
+        {
+          "nombre": "Alcaniz",
+          "distancia_km_capital": 43,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Valencia",
+            "distancia_km": 130,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Andorra",
+          "distancia_km_capital": 60,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Valencia",
+            "distancia_km": 160,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Calamocha",
+          "distancia_km_capital": 64,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Valencia",
+            "distancia_km": 170,
+            "es_obligatorio": false
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Toledo",
+      "capital": "Toledo",
+      "es_costera": false,
+      "puerto_mas_cercano": {
+        "nombre": "Puerto de Valencia",
+        "distancia_km": 230,
+        "es_obligatorio": false
+      },
+      "ciudades_principales": [
+        {
+          "nombre": "Talavera de la Reina",
+          "distancia_km_capital": 85,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Valencia",
+            "distancia_km": 310,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Illescas",
+          "distancia_km_capital": 30,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Valencia",
+            "distancia_km": 200,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Seseña",
+          "distancia_km_capital": 40,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Valencia",
+            "distancia_km": 210,
+            "es_obligatorio": false
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Valencia",
+      "capital": "Valencia",
+      "es_costera": true,
+      "puerto_mas_cercano": {
+        "nombre": "Puerto de Valencia",
+        "distancia_km": 0,
+        "es_obligatorio": false
+      },
+      "ciudades_principales": [
+        {
+          "nombre": "Gandia",
+          "distancia_km_capital": 65,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Valencia",
+            "distancia_km": 65,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Torrent",
+          "distancia_km_capital": 10,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Valencia",
+            "distancia_km": 10,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Paterna",
+          "distancia_km_capital": 8,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Valencia",
+            "distancia_km": 8,
+            "es_obligatorio": false
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Valladolid",
+      "capital": "Valladolid",
+      "es_costera": false,
+      "puerto_mas_cercano": {
+        "nombre": "Puerto de Santander",
+        "distancia_km": 160,
+        "es_obligatorio": false
+      },
+      "ciudades_principales": [
+        {
+          "nombre": "Medina del Campo",
+          "distancia_km_capital": 40,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Santander",
+            "distancia_km": 200,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Tordesillas",
+          "distancia_km_capital": 30,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Santander",
+            "distancia_km": 170,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Viana de Cega",
+          "distancia_km_capital": 10,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Santander",
+            "distancia_km": 150,
+            "es_obligatorio": false
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Vizcaya",
+      "capital": "Bilbao",
+      "es_costera": true,
+      "puerto_mas_cercano": {
+        "nombre": "Puerto de Bilbao",
+        "distancia_km": 0,
+        "es_obligatorio": false
+      },
+      "ciudades_principales": [
+        {
+          "nombre": "Barakaldo",
+          "distancia_km_capital": 10,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Bilbao",
+            "distancia_km": 10,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Getxo",
+          "distancia_km_capital": 15,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Bilbao",
+            "distancia_km": 15,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Portugalete",
+          "distancia_km_capital": 13,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Bilbao",
+            "distancia_km": 13,
+            "es_obligatorio": false
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Zamora",
+      "capital": "Zamora",
+      "es_costera": false,
+      "puerto_mas_cercano": {
+        "nombre": "Puerto de Vigo",
+        "distancia_km": 130,
+        "es_obligatorio": false
+      },
+      "ciudades_principales": [
+        {
+          "nombre": "Benavente",
+          "distancia_km_capital": 55,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Vigo",
+            "distancia_km": 110,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Toro",
+          "distancia_km_capital": 45,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Vigo",
+            "distancia_km": 90,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Moraleja del Vino",
+          "distancia_km_capital": 12,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Vigo",
+            "distancia_km": 115,
+            "es_obligatorio": false
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Zaragoza",
+      "capital": "Zaragoza",
+      "es_costera": false,
+      "puerto_mas_cercano": {
+        "nombre": "Puerto de Barcelona",
+        "distancia_km": 300,
+        "es_obligatorio": false
+      },
+      "ciudades_principales": [
+        {
+          "nombre": "Calatayud",
+          "distancia_km_capital": 84,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Barcelona",
+            "distancia_km": 380,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Utebo",
+          "distancia_km_capital": 11,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Barcelona",
+            "distancia_km": 310,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Ejea de los Caballeros",
+          "distancia_km_capital": 52,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Barcelona",
+            "distancia_km": 360,
             "es_obligatorio": false
           }
         }
@@ -1705,6 +2095,16 @@
       "nombre": "Puerto de Vigo",
       "provincia": "Pontevedra",
       "ciudad_ubicacion": "Vigo"
+    },
+    {
+      "nombre": "Puerto de Tarragona",
+      "provincia": "Tarragona",
+      "ciudad_ubicacion": "Tarragona"
+    },
+    {
+      "nombre": "Puerto de Santa Cruz de Tenerife",
+      "provincia": "Santa Cruz de Tenerife",
+      "ciudad_ubicacion": "Santa Cruz de Tenerife"
     },
     {
       "nombre": "Puerto de Valencia",

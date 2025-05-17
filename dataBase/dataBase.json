@@ -1133,6 +1133,144 @@
           }
         }
       ]
+    },
+    {
+      "nombre": "Malaga",
+      "capital": "Malaga",
+      "es_costera": true,
+      "puerto_mas_cercano": {
+        "nombre": "Puerto de Malaga",
+        "distancia_km": 0,
+        "es_obligatorio": false
+      },
+      "ciudades_principales": [
+        {
+          "nombre": "Marbella",
+          "distancia_km_capital": 60,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Malaga",
+            "distancia_km": 60,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Mijas",
+          "distancia_km_capital": 30,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Malaga",
+            "distancia_km": 30,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Fuengirola",
+          "distancia_km_capital": 25,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Malaga",
+            "distancia_km": 25,
+            "es_obligatorio": false
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Melilla",
+      "capital": "Melilla",
+      "es_costera": true,
+      "puerto_mas_cercano": {
+        "nombre": "Puerto de Melilla",
+        "distancia_km": 0,
+        "es_obligatorio": true
+      },
+      "ciudades_principales": [
+        {
+          "nombre": "Melilla",
+          "distancia_km_capital": 0,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Melilla",
+            "distancia_km": 0,
+            "es_obligatorio": true
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Murcia",
+      "capital": "Murcia",
+      "es_costera": false,
+      "puerto_mas_cercano": {
+        "nombre": "Puerto de Cartagena",
+        "distancia_km": 40,
+        "es_obligatorio": false
+      },
+      "ciudades_principales": [
+        {
+          "nombre": "Lorca",
+          "distancia_km_capital": 70,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Cartagena",
+            "distancia_km": 110,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Cartagena",
+          "distancia_km_capital": 40,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Cartagena",
+            "distancia_km": 0,
+            "es_obligatorio": true
+          }
+        },
+        {
+          "nombre": " Molina de Segura",
+          "distancia_km_capital": 15,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Cartagena",
+            "distancia_km": 55,
+            "es_obligatorio": false
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Navarra",
+      "capital": "Pamplona",
+      "es_costera": false,
+      "puerto_mas_cercano": {
+        "nombre": "Puerto de Bilbao",
+        "distancia_km": 120,
+        "es_obligatorio": false
+      },
+      "ciudades_principales": [
+        {
+          "nombre": "Tudela",
+          "distancia_km_capital": 80,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Bilbao",
+            "distancia_km": 180,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Estella",
+          "distancia_km_capital": 50,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Bilbao",
+            "distancia_km": 170,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Alsasua",
+          "distancia_km_capital": 40,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Bilbao",
+            "distancia_km": 160,
+            "es_obligatorio": false
+          }
+        }
+      ]
     }
   ],
   "puertos_principales": [
@@ -1235,6 +1373,16 @@
       "nombre": "Puerto de Malaga",
       "provincia": "Malaga",
       "ciudad_ubicacion": "Malaga"
+    },
+    {
+      "nombre": "Puerto de Melilla",
+      "provincia": "Melilla",
+      "ciudad_ubicacion": "Melilla"
+    },
+    {
+      "nombre": "Puerto de Cartagena",
+      "provincia": "Murcia",
+      "ciudad_ubicacion": "Cartagena"
     },
     {
       "nombre": "Puerto de Sevilla",

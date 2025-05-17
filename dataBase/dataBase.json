@@ -69,18 +69,62 @@
           }
         }
       ]
+    },
+    {
+      "nombre": "Alicante",
+      "capital": "Alicante",
+      "es_costera": true,
+      "puerto_mas_cercano": {
+        "nombre": "Puerto de Alicante",
+        "distancia_km": 0,
+        "es_obligatorio": false
+      },
+      "ciudades_principales": [
+        {
+          "nombre": "Elche",
+          "distancia_km_capital": 23,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Alicante",
+            "distancia_km": 23,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Torrevieja",
+          "distancia_km_capital": 48,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Alicante",
+            "distancia_km": 48,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Benidorm",
+          "distancia_km_capital": 45,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Alicante",
+            "distancia_km": 45,
+            "es_obligatorio": false
+          }
+        }
+      ]
     }
   ],
   "puertos_principales": [
     {
-      "nombre": "Puerto de Valencia",
-      "provincia": "Valencia",
-      "ciudad_ubicacion": "Valencia"
+      "nombre": "Puerto de Alicante",
+      "provincia": "Alicante",
+      "ciudad_ubicacion": "Alicante"
     },
     {
       "nombre": "Puerto de Bilbao",
       "provincia": "Bizkaia",
       "ciudad_ubicacion": "Bilbao"
+    },
+    {
+      "nombre": "Puerto de Valencia",
+      "provincia": "Valencia",
+      "ciudad_ubicacion": "Valencia"
     }
   ],
   "distancias_maritimas": [

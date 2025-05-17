@@ -21,26 +21,35 @@ function esCostera(ciudad) {
 }
 
 function buscarRuta() {
-  const origen = document.getElementById("origen").value.trim();
-  const destino = document.getElementById("destino").value.trim();
+  const origen = document.getElementById("origen").value;
+  const destino = document.getElementById("destino").value;
+  const tipo = document.getElementById("tipoRuta").value;
+
   const resultados = document.getElementById("resultados");
-
-  if (!origen || !destino) {
-    alert("Por favor, completa todas las casillas.");
-    return;
-  }
-
-  const origenCostero = esCostera(origen);
-  const destinoCostero = esCostera(destino);
-
-  let tipoTrayecto;
-  if (origenCostero && destinoCostero) {
-    tipoTrayecto = "marítimo o terrestre";
-  } else {
-    tipoTrayecto = "terrestre";
-  }
-
   resultados.innerHTML = `
+          <p><strong>Origen:</strong> ${origen}</p>
+          <p><strong>Destino:</strong> ${destino}</p>
+          <p><strong>Tipo de Ruta:</strong> ${
+            tipo.charAt(0).toUpperCase() + tipo.slice(1)
+          }</p>`;
+}
+
+if (!origen || !destino) {
+  alert("Por favor, completa todas las casillas.");
+  return;
+}
+
+const origenCostero = esCostera(origen);
+const destinoCostero = esCostera(destino);
+
+let tipoTrayecto;
+if (origenCostero && destinoCostero) {
+  tipoTrayecto = "marítimo o terrestre";
+} else {
+  tipoTrayecto = "terrestre";
+}
+
+resultados.innerHTML = `
         <div class="route-option">
           <strong>Trayecto (${tipoTrayecto})</strong><br/>
           Opción 1: Salida 08:00 - Llegada 12:00<br/>
@@ -51,5 +60,4 @@ function buscarRuta() {
           Precio: 28 €
         </div>
       `;
-  resultados.style.display = "block";
-}
+resultados.style.display = "block";

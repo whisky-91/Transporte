@@ -1,7 +1,7 @@
 {
   "provincias": [
     {
-      "nombre": "Álava",
+      "nombre": "Alava",
       "capital": "Vitoria-Gasteiz",
       "es_costera": false,
       "puerto_mas_cercano": {
@@ -60,7 +60,7 @@
           }
         },
         {
-          "nombre": "Hellín",
+          "nombre": "Hellin",
           "distancia_km_capital": 65,
           "puerto_mas_cercano": {
             "nombre": "Puerto de Valencia",
@@ -110,11 +110,11 @@
       ]
     },
     {
-      "nombre": "Almería",
-      "capital": "Almería",
+      "nombre": "Almeria",
+      "capital": "Almeria",
       "es_costera": true,
       "puerto_mas_cercano": {
-        "nombre": "Puerto de Almería",
+        "nombre": "Puerto de Almeria",
         "distancia_km": 0,
         "es_obligatorio": false
       },
@@ -123,7 +123,7 @@
           "nombre": "El Ejido",
           "distancia_km_capital": 32,
           "puerto_mas_cercano": {
-            "nombre": "Puerto de Almería",
+            "nombre": "Puerto de Almeria",
             "distancia_km": 32,
             "es_obligatorio": false
           }
@@ -132,16 +132,16 @@
           "nombre": "Roquetas de Mar",
           "distancia_km_capital": 25,
           "puerto_mas_cercano": {
-            "nombre": "Puerto de Almería",
+            "nombre": "Puerto de Almeria",
             "distancia_km": 25,
             "es_obligatorio": false
           }
         },
         {
-          "nombre": "Níjar",
+          "nombre": "Nijar",
           "distancia_km_capital": 30,
           "puerto_mas_cercano": {
-            "nombre": "Puerto de Almería",
+            "nombre": "Puerto de Almeria",
             "distancia_km": 30,
             "es_obligatorio": false
           }
@@ -153,7 +153,7 @@
       "capital": "Oviedo",
       "es_costera": false,
       "puerto_mas_cercano": {
-        "nombre": "Puerto de Gijón",
+        "nombre": "Puerto de Gijon",
         "distancia_km": 28,
         "es_obligatorio": false
       },
@@ -168,10 +168,10 @@
           }
         },
         {
-          "nombre": "Avilés",
+          "nombre": "Aviles",
           "distancia_km_capital": 26,
           "puerto_mas_cercano": {
-            "nombre": "Puerto de Avilés",
+            "nombre": "Puerto de Aviles",
             "distancia_km": 0,
             "es_obligatorio": false
           }
@@ -188,8 +188,8 @@
       ]
     },
     {
-      "nombre": "Ávila",
-      "capital": "Ávila",
+      "nombre": "avila",
+      "capital": "avila",
       "es_costera": false,
       "puerto_mas_cercano": {
         "nombre": "Puerto de Valencia",
@@ -198,12 +198,12 @@
       },
       "ciudades_principales": [
         {
-          "nombre": "Arévalo",
+          "nombre": "Arevalo",
           "distancia_km_capital": 52,
           "puerto_mas_cercano": null
         },
         {
-          "nombre": "Las Navas del Marqués",
+          "nombre": "Las Navas del Marques",
           "distancia_km_capital": 40,
           "puerto_mas_cercano": null
         },
@@ -225,7 +225,7 @@
       },
       "ciudades_principales": [
         {
-          "nombre": "Mérida",
+          "nombre": "Merida",
           "distancia_km_capital": 63,
           "puerto_mas_cercano": {
             "nombre": "Puerto de Huelva",
@@ -328,8 +328,8 @@
       ]
     },
     {
-      "nombre": "Cáceres",
-      "capital": "Cáceres",
+      "nombre": "Caceres",
+      "capital": "Caceres",
       "es_costera": false,
       "puerto_mas_cercano": {
         "nombre": "Puerto de Huelva",
@@ -355,11 +355,11 @@
       ]
     },
     {
-      "nombre": "Cádiz",
-      "capital": "Cádiz",
+      "nombre": "Cadiz",
+      "capital": "Cadiz",
       "es_costera": true,
       "puerto_mas_cercano": {
-        "nombre": "Puerto de Cádiz",
+        "nombre": "Puerto de Cadiz",
         "distancia_km": 0,
         "es_obligatorio": false
       },
@@ -368,7 +368,7 @@
           "nombre": "Jerez de la Frontera",
           "distancia_km_capital": 33,
           "puerto_mas_cercano": {
-            "nombre": "Puerto de Cádiz",
+            "nombre": "Puerto de Cadiz",
             "distancia_km": 33,
             "es_obligatorio": false
           }
@@ -386,7 +386,7 @@
           "nombre": "San Fernando",
           "distancia_km_capital": 14,
           "puerto_mas_cercano": {
-            "nombre": "Puerto de Cádiz",
+            "nombre": "Puerto de Cadiz",
             "distancia_km": 14,
             "es_obligatorio": false
           }
@@ -491,7 +491,7 @@
           }
         },
         {
-          "nombre": "El Príncipe Alfonso",
+          "nombre": "El Principe Alfonso",
           "distancia_km_capital": 3,
           "puerto_mas_cercano": {
             "nombre": "Puerto de Ceuta",
@@ -725,7 +725,7 @@
           }
         },
         {
-          "nombre": "Almuñécar",
+          "nombre": "Almuñecar",
           "distancia_km_capital": 70,
           "puerto_mas_cercano": {
             "nombre": "Puerto de Motril",
@@ -734,7 +734,7 @@
           }
         },
         {
-          "nombre": "Ogíjares",
+          "nombre": "Ogijares",
           "distancia_km_capital": 5,
           "puerto_mas_cercano": {
             "nombre": "Puerto de Motril",
@@ -785,7 +785,7 @@
     },
     {
       "nombre": "Gipuzkoa",
-      "capital": "Donostia-San Sebastián",
+      "capital": "Donostia-San Sebastian",
       "es_costera": true,
       "puerto_mas_cercano": {
         "nombre": "Puerto de Pasaia",
@@ -860,6 +860,279 @@
           }
         }
       ]
+    },
+    {
+      "nombre": "Huesca",
+      "capital": "Huesca",
+      "es_costera": false,
+      "puerto_mas_cercano": {
+        "nombre": "Puerto de Barcelona",
+        "distancia_km": 230,
+        "es_obligatorio": false
+      },
+      "ciudades_principales": [
+        {
+          "nombre": "Monzón",
+          "distancia_km_capital": 60,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Barcelona",
+            "distancia_km": 290,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Binefar",
+          "distancia_km_capital": 70,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Barcelona",
+            "distancia_km": 300,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Sabiñanigo",
+          "distancia_km_capital": 50,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Barcelona",
+            "distancia_km": 270,
+            "es_obligatorio": false
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Islas Baleares",
+      "capital": "Palma de Mallorca",
+      "es_costera": true,
+      "puerto_mas_cercano": {
+        "nombre": "Puerto de Palma",
+        "distancia_km": 0,
+        "es_obligatorio": true
+      },
+      "ciudades_principales": [
+        {
+          "nombre": "Manacor",
+          "distancia_km_capital": 55,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Palma",
+            "distancia_km": 55,
+            "es_obligatorio": true
+          }
+        },
+        {
+          "nombre": "Ibiza",
+          "distancia_km_capital": 150,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Ibiza",
+            "distancia_km": 0,
+            "es_obligatorio": true
+          }
+        },
+        {
+          "nombre": "Mahon",
+          "distancia_km_capital": 190,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Mahon",
+            "distancia_km": 0,
+            "es_obligatorio": true
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Jaen",
+      "capital": "Jaen",
+      "es_costera": false,
+      "puerto_mas_cercano": {
+        "nombre": "Puerto de Malaga",
+        "distancia_km": 160,
+        "es_obligatorio": false
+      },
+      "ciudades_principales": [
+        {
+          "nombre": "Linares",
+          "distancia_km_capital": 25,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Malaga",
+            "distancia_km": 180,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Andújar",
+          "distancia_km_capital": 60,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Malaga",
+            "distancia_km": 200,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Úbeda",
+          "distancia_km_capital": 55,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Malaga",
+            "distancia_km": 175,
+            "es_obligatorio": false
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Leon",
+      "capital": "Leon",
+      "es_costera": false,
+      "puerto_mas_cercano": {
+        "nombre": "Puerto de Gijon",
+        "distancia_km": 120,
+        "es_obligatorio": false
+      },
+      "ciudades_principales": [
+        {
+          "nombre": "San Andres del Rabanedo",
+          "distancia_km_capital": 5,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Gijon",
+            "distancia_km": 115,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Villaquilambre",
+          "distancia_km_capital": 7,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Gijon",
+            "distancia_km": 122,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Ponferrada",
+          "distancia_km_capital": 100,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Gijon",
+            "distancia_km": 220,
+            "es_obligatorio": false
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Lleida",
+      "capital": "Lleida",
+      "es_costera": false,
+      "puerto_mas_cercano": {
+        "nombre": "Puerto de Barcelona",
+        "distancia_km": 160,
+        "es_obligatorio": false
+      },
+      "ciudades_principales": [
+        {
+          "nombre": "Tàrrega",
+          "distancia_km_capital": 30,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Barcelona",
+            "distancia_km": 190,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Balaguer",
+          "distancia_km_capital": 50,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Barcelona",
+            "distancia_km": 210,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Mollerussa",
+          "distancia_km_capital": 40,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Barcelona",
+            "distancia_km": 200,
+            "es_obligatorio": false
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Lugo",
+      "capital": "Lugo",
+      "es_costera": false,
+      "puerto_mas_cercano": {
+        "nombre": "Puerto de Ferrol",
+        "distancia_km": 80,
+        "es_obligatorio": false
+      },
+      "ciudades_principales": [
+        {
+          "nombre": "Monforte de Lemos",
+          "distancia_km_capital": 65,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Ferrol",
+            "distancia_km": 130,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Sarria",
+          "distancia_km_capital": 50,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Ferrol",
+            "distancia_km": 120,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Burela",
+          "distancia_km_capital": 75,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Ferrol",
+            "distancia_km": 100,
+            "es_obligatorio": false
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Madrid",
+      "capital": "Madrid",
+      "es_costera": false,
+      "puerto_mas_cercano": {
+        "nombre": "Puerto de Valencia",
+        "distancia_km": 350,
+        "es_obligatorio": false
+      },
+      "ciudades_principales": [
+        {
+          "nombre": "Móstoles",
+          "distancia_km_capital": 20,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Valencia",
+            "distancia_km": 370,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Alcalá de Henares",
+          "distancia_km_capital": 35,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Valencia",
+            "distancia_km": 360,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Fuenlabrada",
+          "distancia_km_capital": 20,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Valencia",
+            "distancia_km": 370,
+            "es_obligatorio": false
+          }
+        }
+      ]
     }
   ],
   "puertos_principales": [
@@ -869,19 +1142,19 @@
       "ciudad_ubicacion": "Alicante"
     },
     {
-      "nombre": "Puerto de Almería",
-      "provincia": "Almería",
-      "ciudad_ubicacion": "Almería"
+      "nombre": "Puerto de Almeria",
+      "provincia": "Almeria",
+      "ciudad_ubicacion": "Almeria"
     },
     {
-      "nombre": "Puerto de Gijón",
+      "nombre": "Puerto de Gijon",
       "provincia": "Asturias",
-      "ciudad_ubicacion": "Gijón"
+      "ciudad_ubicacion": "Gijon"
     },
     {
-      "nombre": "Puerto de Avilés",
+      "nombre": "Puerto de Aviles",
       "provincia": "Asturias",
-      "ciudad_ubicacion": "Avilés"
+      "ciudad_ubicacion": "Aviles"
     },
     {
       "nombre": "Puerto de Barcelona",
@@ -894,13 +1167,13 @@
       "ciudad_ubicacion": "Bilbao"
     },
     {
-      "nombre": "Puerto de Cádiz",
-      "provincia": "Cádiz",
-      "ciudad_ubicacion": "Cádiz"
+      "nombre": "Puerto de Cadiz",
+      "provincia": "Cadiz",
+      "ciudad_ubicacion": "Cadiz"
     },
     {
       "nombre": "Puerto de Algeciras",
-      "provincia": "Cádiz",
+      "provincia": "Cadiz",
       "ciudad_ubicacion": "Algeciras"
     },
     {
@@ -909,9 +1182,9 @@
       "ciudad_ubicacion": "Santander"
     },
     {
-      "nombre": "Puerto de Castellón",
-      "provincia": "Castellón",
-      "ciudad_ubicacion": "Castellón de la Plana"
+      "nombre": "Puerto de Castellon",
+      "provincia": "Castellon",
+      "ciudad_ubicacion": "Castellon de la Plana"
     },
     {
       "nombre": "Puerto de Ceuta",
@@ -942,6 +1215,26 @@
       "nombre": "Puerto de Huelva",
       "provincia": "Huelva",
       "ciudad_ubicacion": "Huelva"
+    },
+    {
+      "nombre": "Puerto de Palma",
+      "provincia": "Islas Baleares",
+      "ciudad_ubicacion": "Palma de Mallorca"
+    },
+    {
+      "nombre": "Puerto de Ibiza",
+      "provincia": "Islas Baleares",
+      "ciudad_ubicacion": "Ibiza"
+    },
+    {
+      "nombre": "Puerto de Mahon",
+      "provincia": "Islas Baleares",
+      "ciudad_ubicacion": "Mahon"
+    },
+    {
+      "nombre": "Puerto de Malaga",
+      "provincia": "Malaga",
+      "ciudad_ubicacion": "Malaga"
     },
     {
       "nombre": "Puerto de Sevilla",

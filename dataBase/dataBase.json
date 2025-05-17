@@ -213,6 +213,119 @@
           "puerto_mas_cercano": null
         }
       ]
+    },
+    {
+      "nombre": "Badajoz",
+      "capital": "Badajoz",
+      "es_costera": false,
+      "puerto_mas_cercano": {
+        "nombre": "Puerto de Huelva",
+        "distancia_km": 223,
+        "es_obligatorio": false
+      },
+      "ciudades_principales": [
+        {
+          "nombre": "Mérida",
+          "distancia_km_capital": 63,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Huelva",
+            "distancia_km": 203,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Don Benito",
+          "distancia_km_capital": 105,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Huelva",
+            "distancia_km": 250,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Villanueva de la Serena",
+          "distancia_km_capital": 110,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Huelva",
+            "distancia_km": 255,
+            "es_obligatorio": false
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Barcelona",
+      "capital": "Barcelona",
+      "es_costera": true,
+      "puerto_mas_cercano": {
+        "nombre": "Puerto de Barcelona",
+        "distancia_km": 0,
+        "es_obligatorio": false
+      },
+      "ciudades_principales": [
+        {
+          "nombre": "Hospitalet de Llobregat",
+          "distancia_km_capital": 7,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Barcelona",
+            "distancia_km": 7,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Badalona",
+          "distancia_km_capital": 10,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Barcelona",
+            "distancia_km": 10,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Sabadell",
+          "distancia_km_capital": 20,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Barcelona",
+            "distancia_km": 20,
+            "es_obligatorio": false
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Burgos",
+      "capital": "Burgos",
+      "es_costera": false,
+      "puerto_mas_cercano": {
+        "nombre": "Puerto de Bilbao",
+        "distancia_km": 120,
+        "es_obligatorio": false
+      },
+      "ciudades_principales": [
+        {
+          "nombre": "Miranda de Ebro",
+          "distancia_km_capital": 80,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Bilbao",
+            "distancia_km": 65,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Aranda de Duero",
+          "distancia_km_capital": 65,
+          "puerto_mas_cercano": {
+            "nombre": "Puerto de Bilbao",
+            "distancia_km": 120,
+            "es_obligatorio": false
+          }
+        },
+        {
+          "nombre": "Briviesca",
+          "distancia_km_capital": 45,
+          "puerto_mas_cercano": null
+        }
+      ]
     }
   ],
   "puertos_principales": [
@@ -237,9 +350,19 @@
       "ciudad_ubicacion": "Avilés"
     },
     {
+      "nombre": "Puerto de Barcelona",
+      "provincia": "Barcelona",
+      "ciudad_ubicacion": "Barcelona"
+    },
+    {
       "nombre": "Puerto de Bilbao",
       "provincia": "Bizkaia",
       "ciudad_ubicacion": "Bilbao"
+    },
+    {
+      "nombre": "Puerto de Huelva",
+      "provincia": "Huelva",
+      "ciudad_ubicacion": "Huelva"
     },
     {
       "nombre": "Puerto de Valencia",

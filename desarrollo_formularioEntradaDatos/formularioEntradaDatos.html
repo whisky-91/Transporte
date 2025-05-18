@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario Entrada Datos</title>
+  </head>
+  <body>
+    <header>
+      <h1>Formulario Entrada Datos</h1>
+    </header>
+    <section>
+      <div id="formEntradaDatos">
+        <label for="idPeso">Introduzca el peso de la carga en KG:</label>
+        <input name="idPeso" id="idPeso" type="text" placeholder="p.ej: 6500" />
+        <label for="idInputCiudadOrigen">Introduzca la Ciudad de origen:</label>
+        <input
+          type="text"
+          id="idInputCiudadOrigen"
+          name="idInputCiudadOrigen"
+        />
+        <label for="idInputCiudadDestino"
+          >Introduzca la Ciudad de destino:</label
+        >
+        <input
+          type="text"
+          id="idInputCiudadDestino"
+          name="idInputCiudadDestino"
+        />
+        <input type="button" id="btnEnviarDatosInputs" value="Enviar" />
+      </div>
+    </section>
+    <script src="obtenerValoresInputs.js"></script>
+  </body>
+</html>

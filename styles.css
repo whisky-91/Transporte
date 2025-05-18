@@ -53,6 +53,21 @@ body {
   text-align: center;
 }
 
+.results {
+  margin-top: 2rem;
+  background-color: #1b1f22;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.route-option {
+  background-color: #2a2e32;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-top: 1rem;
+  border-left: 4px solid #007bff;
+}
+
 /* ENTRADAS */
 input[type="text"],
 select {

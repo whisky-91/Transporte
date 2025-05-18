@@ -17,3 +17,7 @@ Para este modelo de negocio es necesario tener 3 variables bien diferencias:
 - Distancia terrestre
 - Distancia marítima
 - Peso
+
+## Comandos
+
+- `npm install axios`

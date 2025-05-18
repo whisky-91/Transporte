@@ -1,0 +1,224 @@
+{
+  "capitales": [
+    {
+      "nombre": "Ávila",
+      "latitud": 40.6565,
+      "longitud": -4.7004
+    },
+    {
+      "nombre": "Albacete",
+      "latitud": 38.9977,
+      "longitud": -1.8601
+    },
+    {
+      "nombre": "Alicante",
+      "latitud": 38.3452,
+      "longitud": -0.4810
+    },
+    {
+      "nombre": "Almería",
+      "latitud": 36.8402,
+      "longitud": -2.4679
+    },
+    {
+      "nombre": "Badajoz",
+      "latitud": 38.8816,
+      "longitud": -6.9706
+    },
+    {
+      "nombre": "Barcelona",
+      "latitud": 41.3851,
+      "longitud": 2.1734
+    },
+    {
+      "nombre": "Burgos",
+      "latitud": 42.3411,
+      "longitud": -3.7018
+    },
+    {
+      "nombre": "Cáceres",
+      "latitud": 39.4753,
+      "longitud": -6.3724
+    },
+    {
+      "nombre": "Cádiz",
+      "latitud": 36.5298,
+      "longitud": -6.2926
+    },
+    {
+      "nombre": "Castellón de la Plana",
+      "latitud": 39.9864,
+      "longitud": -0.0513
+    },
+    {
+      "nombre": "Ciudad Real",
+      "latitud": 38.9861,
+      "longitud": -3.9273
+    },
+    {
+      "nombre": "Córdoba",
+      "latitud": 37.8882,
+      "longitud": -4.7794
+    },
+    {
+      "nombre": "Cuenca",
+      "latitud": 40.0718,
+      "longitud": -2.1340
+    },
+    {
+      "nombre": "Gerona",
+      "latitud": 41.9818,
+      "longitud": 2.8237
+    },
+    {
+      "nombre": "Granada",
+      "latitud": 37.1773,
+      "longitud": -3.5986
+    },
+    {
+      "nombre": "Guadalajara",
+      "latitud": 40.6292,
+      "longitud": -3.1614
+    },
+    {
+      "nombre": "Huelva",
+      "latitud": 37.2614,
+      "longitud": -6.9446
+    },
+    {
+      "nombre": "Huesca",
+      "latitud": 42.1401,
+      "longitud": -0.4089
+    },
+    {
+      "nombre": "Jaén",
+      "latitud": 37.7796,
+      "longitud": -3.7849
+    },
+    {
+      "nombre": "León",
+      "latitud": 42.5994,
+      "longitud": -5.5717
+    },
+    {
+      "nombre": "Lérida",
+      "latitud": 41.6148,
+      "longitud": 0.6267
+    },
+    {
+      "nombre": "Logroño",
+      "latitud": 42.4627,
+      "longitud": -2.4450
+    },
+    {
+      "nombre": "Lugo",
+      "latitud": 43.0097,
+      "longitud": -7.5568
+    },
+    {
+      "nombre": "Madrid",
+      "latitud": 40.4168,
+      "longitud": -3.7038
+    },
+    {
+      "nombre": "Murcia",
+      "latitud": 37.9922,
+      "longitud": -1.1307
+    },
+    {
+      "nombre": "Orense",
+      "latitud": 42.3366,
+      "longitud": -7.8641
+    },
+    {
+      "nombre": "Oviedo",
+      "latitud": 43.3619,
+      "longitud": -5.8494
+    },
+    {
+      "nombre": "Palencia",
+      "latitud": 42.0096,
+      "longitud": -4.5241
+    },
+    {
+      "nombre": "Pamplona",
+      "latitud": 42.8125,
+      "longitud": -1.6458
+    },
+    {
+      "nombre": "Pontevedra",
+      "latitud": 42.4336,
+      "longitud": -8.6481
+    },
+    {
+      "nombre": "Salamanca",
+      "latitud": 40.9645,
+      "longitud": -5.6630
+    },
+    {
+      "nombre": "San Sebastián",
+      "latitud": 43.3183,
+      "longitud": -1.9812
+    },
+    {
+      "nombre": "Santander",
+      "latitud": 43.4628,
+      "longitud": -3.8050
+    },
+    {
+      "nombre": "Segovia",
+      "latitud": 40.9429,
+      "longitud": -4.1088
+    },
+    {
+      "nombre": "Sevilla",
+      "latitud": 37.3891,
+      "longitud": -5.9845
+    },
+    {
+      "nombre": "Soria",
+      "latitud": 41.7640,
+      "longitud": -2.4688
+    },
+    {
+      "nombre": "Tarragona",
+      "latitud": 41.1189,
+      "longitud": 1.2445
+    },
+    {
+      "nombre": "Teruel",
+      "latitud": 40.3456,
+      "longitud": -1.1065
+    },
+    {
+      "nombre": "Toledo",
+      "latitud": 39.8628,
+      "longitud": -4.0273
+    },
+    {
+      "nombre": "Valencia",
+      "latitud": 39.4699,
+      "longitud": -0.3763
+    },
+    {
+      "nombre": "Valladolid",
+      "latitud": 41.6528,
+      "longitud": -4.7236
+    },
+    {
+      "nombre": "Vitoria",
+      "latitud": 42.8467,
+      "longitud": -2.6716
+    },
+    {
+      "nombre": "Zamora",
+      "latitud": 41.5036,
+      "longitud": -5.7469
+    },
+    {
+      "nombre": "Zaragoza",
+      "latitud": 41.6488,
+      "longitud": -0.8891
+    }
+  ]
+}

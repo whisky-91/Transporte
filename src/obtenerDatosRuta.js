@@ -7,13 +7,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
-import { Terrestre } from "./transportes/Terrestre.js";
-import { Maritimo } from "./transportes/Maritimo.js";
-import { Mixto } from "./transportes/Mixto.js";
-const apiKey = "pk.7fc9cca20ec9becf0a5da73023a73c5d";
-const puntoInicial = { latitud: 41.50302456452686, longitud: -5.74693999773211 };
-const puntoFinal = { latitud: 39.985002315833796, longitud: 4.087154850251836 };
-const url = `https://eu1.locationiq.com/v1/directions/driving/${puntoInicial.longitud},${puntoInicial.latitud};${puntoFinal.longitud},${puntoFinal.latitud}?key=${apiKey}&steps=true&alternatives=true&geometries=polyline&overview=full&geometries=geojson`;
+import axios from "axios";
 export function obtenerDatosRuta(url) {
     return __awaiter(this, void 0, void 0, function* () {
         const response = yield axios.get(url);
@@ -39,12 +33,4 @@ export function obtenerDatosRuta(url) {
         };
     });
 }
-const datosRuta = obtenerDatosRuta(url);
-console.log(datosRuta);
-const pesoTotal = 15000;
-const tramo1 = new Terrestre(pesoTotal, 500);
-const tramo2 = new Maritimo(pesoTotal, 2000);
-const tramo3 = new Terrestre(pesoTotal, 300);
-const combinado = new Mixto(pesoTotal, tramo1, tramo2, tramo3);
-console.log("Precio total del transporte mixto:", combinado.calcularPrecio(), "€");
-//# sourceMappingURL=main.js.map
+//# sourceMappingURL=obtenerDatosRuta.js.map

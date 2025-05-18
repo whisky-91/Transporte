@@ -101,3 +101,18 @@ distanciaMaritimaDB:
         }
       ]
     }
+
+Ejemplo de uso de la ClaseConsulta:
+const iterator = new DataBaseIterator();
+
+Caso 1: Ruta terrestre (sin puertos obligatorios)
+const ruta1 = iterator.calcularRuta("Madrid", "Barcelona");
+console.log(ruta1);
+
+Caso 2: Ruta con puerto obligatorio
+const ruta2 = iterator.calcularRuta("Ciudad con puerto obligatorio", "Otra ciudad");
+console.log(ruta2);
+
+Caso 3: Ruta dentro de la misma provincia
+const ruta3 = iterator.calcularRuta("Vitoria-Gasteiz", "Llodio");
+console.log(ruta3);

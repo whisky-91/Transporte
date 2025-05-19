@@ -1,13 +1,13 @@
-// import ciudades from "./dataBase/provinciasCiudadesDB.json" assert { type: "json" };
-// import puertos from "./dataBase/puertosPrincipalesDB.json" assert { type: "json" };
-// import distanciasMaritimas from "./dataBase/distanciaMaritimaDB.json" assert { type: "json" };
-// import distanciasTerrestres from "./dataBase/distanciaTerrestreDB.json" assert { type: "json" };
+import ciudades from "./dataBase/provinciasCiudadesDB.json";
+import puertos from "./dataBase/puertosPrincipalesDB.json";
+import distanciasMaritimas from "./dataBase/distanciaMaritimaDB.json";
+import distanciasTerrestres from "./dataBase/distanciaTerrestreDB.json";
 
 export class DataBaseIterator {
-  constructor(data) {
-    this.ciudades = data.ciudades;
-    this.distanciasTerrestres = data.distanciasTerrestres;
-    this.distanciasMaritimas = data.distanciasMaritimas;
+  constructor() {
+    this.ciudades = ciudades.provincias;
+    this.distanciasTerrestres = distanciasTerrestres.distancias_terrestres;
+    this.distanciasMaritimas = distanciasMaritimas.distancias_maritimas;
   }
 
   /**

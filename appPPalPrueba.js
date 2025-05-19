@@ -1,6 +1,9 @@
-import DataBaseIterator from "./ClaseConsulta.js";
+import { loadDatabase } from "./cargadorDB.js";
 
-const Consulta = new DataBaseIterator();
+export async function inicializarApp() {
+  return await loadDatabase();
+}
 
-let ruta1 = Consulta.calcularRuta("Madrid", "Huelva");
+const db = await inicializarApp();
+let ruta1 = db.calcularRuta("Barcelona", "Badajoz");
 console.log(ruta1);

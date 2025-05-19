@@ -1,18 +1,22 @@
-// export async function cargarDatos() {
-//   const baseUrl = "./dataBase";
-//   const urls = [
-//     "provinciasCiudadesDB.json",
-//     "distancias_terrestres.json",
-//     "distancias_maritimas.json",
-//   ];
+import { DataBaseIterator } from "./ClaseConsulta.js";
 
-//   const responses = await Promise.all(
-//     urls.map((url) => fetch(`${baseUrl}/${url}`).then((r) => r.json()))
-//   );
+export async function loadDatabase() {
+  try {
+    /**
+     * Carga de los archivos con fetch en paralelo:
+     */
+    const [ciudades, terrestres, maritimas] = await Promise.all([
+      fetch("./dataBase/provinciasCiudadesDB.json").then((res) => res.json()),
+      fetch("./dataBase/distanciaTerrestreDB.json").then((res) => res.json()),
+      fetch("./dataBase/distanciaMaritimaDB.json").then((res) => res.json()),
+    ]);
 
-//   return {
-//     ciudades: responses[0].provincias,
-//     distanciasTerrestres: responses[1].distancias_terrestres,
-//     distanciasMaritimas: responses[2].distancias_maritimas,
-//   };
-// }
+    /**
+     * Creamos y devolvemos una instancia con los datos cargados:
+     */
+    return new DataBaseIterator(ciudades, terrestres, maritimas);
+  } catch (error) {
+    console.error("Error cargando la base de datos:", error);
+    throw error;
+  }
+}

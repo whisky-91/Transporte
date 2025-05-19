@@ -1,13 +1,11 @@
-import ciudades from "./dataBase/provinciasCiudadesDB.json";
-import puertos from "./dataBase/puertosPrincipalesDB.json";
-import distanciasMaritimas from "./dataBase/distanciaMaritimaDB.json";
-import distanciasTerrestres from "./dataBase/distanciaTerrestreDB.json";
-
 export class DataBaseIterator {
-  constructor() {
-    this.ciudades = ciudades.provincias;
-    this.distanciasTerrestres = distanciasTerrestres.distancias_terrestres;
-    this.distanciasMaritimas = distanciasMaritimas.distancias_maritimas;
+  /**
+   * Se modifica el constructor para recibir los datos cargados:
+   */
+  constructor(ciudadesData, distanciasTerrestresData, distanciasMaritimasData) {
+    this.ciudades = ciudadesData.provincias;
+    this.distanciasTerrestres = distanciasTerrestresData.distancias_terrestres;
+    this.distanciasMaritimas = distanciasMaritimasData.distancias_maritimas;
   }
 
   /**

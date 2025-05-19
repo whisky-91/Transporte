@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TransIberia</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header-wrapper">
+      <img src="logotransiberia.jpeg" alt="TransIberia Logo" class="logo" />
+      <div class="search-box">
+        <input
+          type="text"
+          id="buscador"
+          placeholder="Buscar destinos o ciudades..."
+        />
+        <button id="boton-buscar">Buscar</button>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#rutas">Gestor de Envíos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+          <li>
+            <select id="menu-idiomas">
+              <option value="es">Español</option>
+              <option value="en">English</option>
+            </select>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="portada">
+        <div class="collage-wrapper">
+          <div class="imagen">
+            <img src="barcodecarga.jpeg" alt="Carga en almacén" />
+          </div>
+          <div class="imagen">
+            <img src="transporteterrestre.jpeg" alt="Transporte terrestre" />
+          </div>
+          <div class="imagen">
+            <img src="delivery.jpeg" alt="Entrega" />
+          </div>
+        </div>
+      </section>
+
+      <section class="gestor-envios" id="rutas">
+        <h2>Calcula tu Envío</h2>
+        <form>
+          <label for="provincia">Provincia</label>
+          <select id="provincia" onchange="actualizarCiudades()">
+            <option value="">Selecciona una provincia</option>
+            <option value="catalunya">Catalunya</option>
+            <option value="andalucia">Andalucía</option>
+            <option value="valencia">Comunidad Valenciana</option>
+          </select>
+
+          <label for="ciudad">Ciudad de Origen</label>
+          <select id="ciudad">
+            <option value="">Selecciona una ciudad</option>
+          </select>
+
+          <label for="destino">Ciudad de Destino</label>
+          <input type="text" id="destino" placeholder="Ej. Valencia" />
+
+          <label for="peso">Peso (kg)</label>
+          <input
+            type="number"
+            id="peso"
+            min="0"
+            max="100000"
+            step="1"
+            placeholder="Ej. 3500"
+          />
+
+          <label for="distancia">Distancia (km)</label>
+          <input
+            type="number"
+            id="distancia"
+            min="1"
+            step="1"
+            placeholder="Ej. 350"
+          />
+
+          <button type="button" onclick="buscarRuta()">Calcular Ruta</button>
+        </form>
+
+        <div class="results" id="resultados"></div>
+      </section>
+
+      <section class="suscripcion">
+        <h3>Suscríbete para recibir novedades de TransIberia</h3>
+        <form onsubmit="event.preventDefault(); suscribirse();">
+          <input
+            type="email"
+            id="email-subscription"
+            placeholder="Ingresa tu email"
+            required
+          />
+          <button type="submit">Suscribirse</button>
+        </form>
+        <div class="redes-sociales">
+          <a href="#">Facebook</a>
+          <a href="#">Instagram</a>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contacto">
+      <p>&copy; 2025 TransIberia. Todos los derechos reservados.</p>
+      <p>Contacto: info@transiberia.com</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

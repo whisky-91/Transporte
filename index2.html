@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TransIberia</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header-wrapper">
+      <div class="logo-container">
+        <img src="logotransiberia.jpeg" alt="TransIberia Logo" class="logo" />
+        <h1 class="titulo">TransIberia</h1>
+      </div>
+      <div class="search-box">
+        <input
+          type="text"
+          id="buscador"
+          placeholder="Buscar destinos o ciudades..."
+        />
+        <button id="boton-buscar">Buscar</button>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#rutas">Gestor de Envíos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+          <li>
+            <select id="menu-idiomas">
+              <option value="es">Español</option>
+              <option value="en">English</option>
+            </select>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="portada">
+        <div class="collage-wrapper">
+          <div class="imagen">
+            <img src="barcodecarga.jpeg" alt="Carga en almacén" />
+          </div>
+          <div class="imagen">
+            <img src="transporteterrestre.jpeg" alt="Transporte terrestre" />
+          </div>
+          <div class="imagen">
+            <img src="delivery.jpeg" alt="Entrega" />
+          </div>
+        </div>
+      </section>
+
+      <section class="gestor-envios" id="rutas">
+        <h2>Calcula tu Envío</h2>
+        <div class="form-box">
+          <h3>Datos del Envío</h3>
+
+          <div class="form-group">
+            <label for="idPeso">Introduzca el peso de la carga en KG:</label>
+            <input
+              name="idPeso"
+              id="idPeso"
+              type="text"
+              placeholder="p.ej: 6500"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="idInputCiudadOrigen"
+              >Introduzca la Ciudad de origen:</label
+            >
+            <input
+              type="text"
+              id="idInputCiudadOrigen"
+              name="idInputCiudadOrigen"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="idInputCiudadDestino"
+              >Introduzca la Ciudad de destino:</label
+            >
+            <input
+              type="text"
+              id="idInputCiudadDestino"
+              name="idInputCiudadDestino"
+            />
+          </div>
+
+          <div class="form-group">
+            <button id="btnEnviarDatosInputs">Enviar</button>
+          </div>
+        </div>
+
+        <div class="results" id="resultados"></div>
+      </section>
+
+      <section class="suscripcion">
+        <h3>Suscríbete para recibir novedades de TransIberia</h3>
+        <form onsubmit="event.preventDefault(); suscribirse();">
+          <input
+            type="email"
+            id="email-subscription"
+            placeholder="Ingresa tu email"
+            required
+          />
+          <button type="submit">Suscribirse</button>
+        </form>
+        <div class="redes-sociales">
+          <a href="#">Facebook</a>
+          <a href="#">Instagram</a>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contacto">
+      <p>&copy; 2025 TransIberia. Todos los derechos reservados.</p>
+      <p>Contacto: info@transiberia.com</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
